@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="OrderNo" fieldtype="i2"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="5" Name="Single" OrderNo="0"/>
+		<ROW Id="5" Name="Upper" OrderNo="1"/>
+		<ROW Id="5" Name="Middle" OrderNo="2"/>
+		<ROW Id="5" Name="Lower" OrderNo="3"/>
+		<ROW Id="6" Name="Single" OrderNo="0"/>
+	</ROWDATA>
+</DATAPACKET>

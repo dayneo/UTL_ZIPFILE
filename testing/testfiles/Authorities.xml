@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="25"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="100"/>
+			<FIELD attrname="Department" fieldtype="string" WIDTH="100"/>
+			<FIELD attrname="Section" fieldtype="string" WIDTH="50"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{900A951C-0CBD-4852-8AFF-7A92DBD838A9}" Code="" Name="WESTERN CAPE PROVINCIAL ADMINISTRATION" Department="ROADS INFRASTRUCTURE BRANCH" Section=""/>
+	</ROWDATA>
+</DATAPACKET>

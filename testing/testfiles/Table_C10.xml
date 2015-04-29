@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Number" fieldtype="i4"/>
+			<FIELD attrname="Compaction" fieldtype="r8"/>
+			<FIELD attrname="S26p5" fieldtype="r8"/>
+			<FIELD attrname="S19p0" fieldtype="r8"/>
+			<FIELD attrname="S13p2" fieldtype="r8"/>
+			<FIELD attrname="S9p5" fieldtype="r8"/>
+			<FIELD attrname="S4p75" fieldtype="r8"/>
+			<FIELD attrname="S2p36" fieldtype="r8"/>
+			<FIELD attrname="S0p3" fieldtype="r8"/>
+			<FIELD attrname="S0p075" fieldtype="r8"/>
+			<FIELD attrname="BITUMEN" fieldtype="r8"/>
+			<FIELD attrname="VIMS" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Number="3" Compaction="2.9" S26p5="5.6" S19p0="6.7" S13p2="7.8" S9p5="7.8" S4p75="7.2" S2p36="6.2" S0p3="6.2" S0p075="2.3" BITUMEN="0.4" VIMS="2.1"/>
+		<ROW Number="4" Compaction="3.2" S26p5="6.1" S19p0="7.3" S13p2="8.5" S9p5="8.5" S4p75="7.9" S2p36="6.8" S0p3="6.8" S0p075="2.5" BITUMEN="0.4" VIMS="2.3"/>
+		<ROW Number="5" Compaction="3.3" S26p5="6.4" S19p0="7.7" S13p2="9" S9p5="9" S4p75="8.4" S2p36="7.2" S0p3="7.2" S0p075="2.6" BITUMEN="0.5" VIMS="2.4"/>
+		<ROW Number="6" Compaction="3.5" S26p5="6.7" S19p0="8" S13p2="9.4" S9p5="9.4" S4p75="8.699999999999999" S2p36="7.5" S0p3="7.5" S0p075="2.7" BITUMEN="0.5" VIMS="2.5"/>
+		<ROW Number="7" Compaction="3.6" S26p5="6.9" S19p0="8.300000000000001" S13p2="9.699999999999999" S9p5="9.699999999999999" S4p75="9" S2p36="7.7" S0p3="7.7" S0p075="2.8" BITUMEN="0.5" VIMS="2.6"/>
+		<ROW Number="8" Compaction="3.7" S26p5="7.1" S19p0="8.5" S13p2="9.9" S9p5="9.9" S4p75="9.199999999999999" S2p36="7.9" S0p3="7.9" S0p075="2.9" BITUMEN="0.5" VIMS="2.7"/>
+		<ROW Number="9" Compaction="3.7" S26p5="7.2" S19p0="8.6" S13p2="10.1" S9p5="10.1" S4p75="9.4" S2p36="8.1" S0p3="8.1" S0p075="3" BITUMEN="0.5" VIMS="2.7"/>
+		<ROW Number="10" Compaction="3.8" S26p5="7.3" S19p0="8.699999999999999" S13p2="10.2" S9p5="10.1" S4p75="9.4" S2p36="8.1" S0p3="8.1" S0p075="3" BITUMEN="0.5" VIMS="2.8"/>
+	</ROWDATA>
+</DATAPACKET>

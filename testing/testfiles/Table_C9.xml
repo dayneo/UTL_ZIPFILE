@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Number" fieldtype="i4"/>
+			<FIELD attrname="Compaction" fieldtype="r8"/>
+			<FIELD attrname="S26p5" fieldtype="r8"/>
+			<FIELD attrname="S19p0" fieldtype="r8"/>
+			<FIELD attrname="S13p2" fieldtype="r8"/>
+			<FIELD attrname="S4p75" fieldtype="r8"/>
+			<FIELD attrname="S2p0" fieldtype="r8"/>
+			<FIELD attrname="S0p425" fieldtype="r8"/>
+			<FIELD attrname="S0p075" fieldtype="r8"/>
+			<FIELD attrname="PI" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Number="4" Compaction="4.1" S26p5="6.1" S19p0="8.5" S13p2="8.5" S4p75="7.3" S2p0="5.6" S0p425="3.6" S0p075="3.2" PI="2.4"/>
+		<ROW Number="5" Compaction="4.4" S26p5="6.4" S19p0="9" S13p2="9" S4p75="7.7" S2p0="5.9" S0p425="3.9" S0p075="3.3" PI="2.6"/>
+		<ROW Number="6" Compaction="4.6" S26p5="6.7" S19p0="9.4" S13p2="9.4" S4p75="8" S2p0="6.2" S0p425="4" S0p075="3.5" PI="2.7"/>
+		<ROW Number="7" Compaction="4.7" S26p5="6.9" S19p0="9.699999999999999" S13p2="9.699999999999999" S4p75="8.300000000000001" S2p0="6.3" S0p425="4.1" S0p075="3.6" PI="2.8"/>
+		<ROW Number="8" Compaction="4.8" S26p5="7.1" S19p0="9.9" S13p2="9.9" S4p75="8.5" S2p0="6.5" S0p425="4.2" S0p075="3.7" PI="2.8"/>
+		<ROW Number="9" Compaction="4.9" S26p5="7.2" S19p0="10.1" S13p2="10.1" S4p75="8.6" S2p0="6.6" S0p425="4.3" S0p075="3.7" PI="2.9"/>
+		<ROW Number="10" Compaction="4.9" S26p5="7.3" S19p0="10.2" S13p2="10.2" S4p75="8.699999999999999" S2p0="6.7" S0p425="4.4" S0p075="3.8" PI="2.9"/>
+	</ROWDATA>
+</DATAPACKET>

@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="ContractId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="CarriageWay" fieldtype="string" WIDTH="1"/>
+			<FIELD attrname="CarriageWayDescription" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="SectionDescription" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Startdate" fieldtype="date"/>
+			<FIELD attrname="EndDate" fieldtype="date"/>
+			<FIELD attrname="StartKm" fieldtype="r8"/>
+			<FIELD attrname="EndKm" fieldtype="r8"/>
+			<FIELD attrname="DSCId" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW
+			Id="{3A3263FB-E089-4E0B-BEA8-C2E279F25270}"
+			ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}"
+			Name="DR01129"
+			Code="DR01129"
+			CarriageWay="+"
+			CarriageWayDescription=""
+			SectionDescription="DR01129"
+			Startdate="20071105"
+			EndDate="20071105"
+			StartKm="0"
+			EndKm="0.07000000029802322"/>
+		<ROW
+			Id="{6FD5888D-E18C-44FB-83F6-39A12F9EAD4B}"
+			ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}"
+			Name="Hermon to Wellington"
+			Code="MR00023"
+			CarriageWay="+"
+			CarriageWayDescription="Full Width"
+			SectionDescription=""
+			Startdate="20070226"
+			EndDate="20070226"
+			StartKm="-0.2150000035762787"
+			EndKm="21.5"/>
+		<ROW Id="{8D95691F-52E1-45D2-8F92-271D1A4F2C2D}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Name="DR01135" Code="DR01135" CarriageWay="+" CarriageWayDescription="" SectionDescription="DR01135" Startdate="20071105" EndDate="20071105" StartKm="0" EndKm="0.09000000357627869"/>
+		<ROW Id="{BD8E4C8C-5E93-4868-B00D-327D3EBC11A3}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Name="TR02401" Code="TR02401" CarriageWay="+" CarriageWayDescription="" SectionDescription="TR02401" Startdate="20071105" EndDate="20071105" StartKm="24.6200008392334" EndKm="24.76000022888184"/>
+		<ROW Id="{FBF07C3A-E4FA-4F44-ADEC-CE0DF205771C}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Name="DR01133" Code="DR01133" CarriageWay="+" CarriageWayDescription="" SectionDescription="DR01133" Startdate="20071105" EndDate="20071105" StartKm="0" EndKm="0.1000000014901161"/>
+	</ROWDATA>
+</DATAPACKET>

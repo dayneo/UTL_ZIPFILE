@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="i4"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA></ROWDATA>
+</DATAPACKET>

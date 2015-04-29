@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="ContractRoadId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ContractId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="StartKm" fieldtype="r8"/>
+			<FIELD attrname="EndKm" fieldtype="r8"/>
+			<FIELD attrname="StartOffSet" fieldtype="r8"/>
+			<FIELD attrname="EndOffset" fieldtype="r8"/>
+			<FIELD attrname="StartWidth" fieldtype="r8"/>
+			<FIELD attrname="EndWidth" fieldtype="r8"/>
+			<FIELD attrname="DesignSegmentId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="KerbLeft" fieldtype="string" WIDTH="1"/>
+			<FIELD attrname="KerbRight" fieldtype="string" WIDTH="1"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{5C474FB5-809D-4D96-A2F2-E1BED994FC0E}" ContractRoadId="{FBF07C3A-E4FA-4F44-ADEC-CE0DF205771C}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="" Name="DR01133 Right Width" StartKm="0" EndKm="0.1000000014901161" StartOffSet="0" EndOffset="0" StartWidth="6.099999904632568" EndWidth="6.099999904632568" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{79CE8059-3324-4248-9E54-78AB94A4D999}" ContractRoadId="{BD8E4C8C-5E93-4868-B00D-327D3EBC11A3}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="" Name="TR02401 Full Width" StartKm="24.6200008392334" EndKm="24.76000022888184" StartOffSet="-6.099999904632568" EndOffset="-6.099999904632568" StartWidth="12.19999980926514" EndWidth="12.19999980926514" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{8367BF45-100F-4A1A-A84E-C7DC6D76C342}" ContractRoadId="{8D95691F-52E1-45D2-8F92-271D1A4F2C2D}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="" Name="DR01135 Left Width" StartKm="0" EndKm="0.09000000357627869" StartOffSet="-6.099999904632568" EndOffset="-6.099999904632568" StartWidth="6.099999904632568" EndWidth="6.099999904632568" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{AD18B0AD-5F17-4B0B-8084-F9C44F60D4A8}" ContractRoadId="{6FD5888D-E18C-44FB-83F6-39A12F9EAD4B}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="RHS" Name="Section 2 (Right Side) - Urban Reconstru" StartKm="20.42000007629395" EndKm="21.5" StartOffSet="0" EndOffset="0" StartWidth="5.699999809265137" EndWidth="5.699999809265137" KerbLeft="T" KerbRight="T"/>
+		<ROW Id="{C3EA4F02-A6E6-498E-AB12-41BCB0788CC2}" ContractRoadId="{3A3263FB-E089-4E0B-BEA8-C2E279F25270}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="" Name="DR01129 Full Width" StartKm="0" EndKm="0.07000000029802322" StartOffSet="-6.099999904632568" EndOffset="-6.099999904632568" StartWidth="12.19999980926514" EndWidth="12.19999980926514" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{D07243DF-95E8-4AAF-89D1-9598D6A105D3}" ContractRoadId="{6FD5888D-E18C-44FB-83F6-39A12F9EAD4B}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="RHS" Name="Section 1 (Right Side) - Reconstruction" StartKm="-0.2150000035762787" EndKm="20.42000007629395" StartOffSet="0" EndOffset="0" StartWidth="5.699999809265137" EndWidth="5.699999809265137" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{DCBCAB49-A0DD-4F45-A25F-9079843F685E}" ContractRoadId="{6FD5888D-E18C-44FB-83F6-39A12F9EAD4B}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="LHS" Name="Section 1 (Left Side) - Reconstruction" StartKm="-0.2150000035762787" EndKm="20.42000007629395" StartOffSet="-5.699999809265137" EndOffset="-5.699999809265137" StartWidth="5.699999809265137" EndWidth="5.699999809265137" DesignSegmentId="{53FFC928-5769-4EFE-94EA-B9CC40EDB9F4}" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{E9040AE2-31F1-43AE-B927-DDB5D5315B5A}" ContractRoadId="{8D95691F-52E1-45D2-8F92-271D1A4F2C2D}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="" Name="DR01135 Right Width" StartKm="0" EndKm="0.09000000357627869" StartOffSet="0" EndOffset="0" StartWidth="6.099999904632568" EndWidth="6.099999904632568" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{F1E9C831-702B-4FC2-A38C-8024FFC990C6}" ContractRoadId="{FBF07C3A-E4FA-4F44-ADEC-CE0DF205771C}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="" Name="DR01133 Left Width" StartKm="0" EndKm="0.1000000014901161" StartOffSet="-6.099999904632568" EndOffset="-6.099999904632568" StartWidth="6.099999904632568" EndWidth="6.099999904632568" KerbLeft="F" KerbRight="F"/>
+		<ROW Id="{FB1104D0-0DEC-4437-BD33-98E91F8ED87B}" ContractRoadId="{6FD5888D-E18C-44FB-83F6-39A12F9EAD4B}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" Code="LHS" Name="Section 2 (Left Side) - Urban Reconstruc" StartKm="20.42000007629395" EndKm="21.5" StartOffSet="-5.699999809265137" EndOffset="-5.699999809265137" StartWidth="5.699999809265137" EndWidth="5.699999809265137" KerbLeft="T" KerbRight="T"/>
+	</ROWDATA>
+</DATAPACKET>

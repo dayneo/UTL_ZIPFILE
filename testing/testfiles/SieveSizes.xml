@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Size" fieldtype="r8">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="Use" fieldtype="string" WIDTH="1"/>
+			<FIELD attrname="Used" fieldtype="string" WIDTH="1"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Size="0.075" Use="T"/>
+		<ROW Size="0.15" Use="F"/>
+		<ROW Size="0.25" Use="F"/>
+		<ROW Size="0.3" Use="T"/>
+		<ROW Size="0.425" Use="T"/>
+		<ROW Size="0.6" Use="T"/>
+		<ROW Size="1.18" Use="F"/>
+		<ROW Size="2" Use="T"/>
+		<ROW Size="2.36" Use="T"/>
+		<ROW Size="3.35" Use="F"/>
+		<ROW Size="4.75" Use="T"/>
+		<ROW Size="6.7" Use="T"/>
+		<ROW Size="9.5" Use="T"/>
+		<ROW Size="13.2" Use="T"/>
+		<ROW Size="16" Use="F"/>
+		<ROW Size="19" Use="T"/>
+		<ROW Size="26.5" Use="T"/>
+		<ROW Size="37.5" Use="T"/>
+		<ROW Size="53" Use="T"/>
+		<ROW Size="63" Use="T"/>
+		<ROW Size="75" Use="T"/>
+		<ROW Size="106" Use="T"/>
+	</ROWDATA>
+</DATAPACKET>

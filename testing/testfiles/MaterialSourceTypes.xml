@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="OrderNo" fieldtype="i2"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{1FD01F3B-8BA8-48C2-B071-37772B7C8972}" Code="STRAT-BPT" Name="Strategic Provincial Borrow Pit"/>
+		<ROW Id="{56A0FF69-EA00-4ED8-9A60-B8DBADB408EB}" Code="COM" Name="Commercial Source"/>
+		<ROW Id="{7CCA64E2-5F1D-4742-BB80-2184485B6BD9}" Code="PROJ-BPT" Name="Project Specific Borrow Pit"/>
+		<ROW Id="{B21FB3CA-8ED3-4001-B53A-F418BCD76FE5}" Code="REC" Name="Reclaimed from Existing Road/s"/>
+		<ROW Id="{B6E4441C-DA73-4489-8E8E-C73B613D3631}" Code="BYP" Name="By Product (Waste)"/>
+	</ROWDATA>
+</DATAPACKET>

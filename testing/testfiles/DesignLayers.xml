@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PavementDesignId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ContractId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Level" fieldtype="i2"/>
+			<FIELD attrname="Depth" fieldtype="i2"/>
+			<FIELD attrname="Thickness" fieldtype="i2"/>
+			<FIELD attrname="DensityPercent" fieldtype="i2"/>
+			<FIELD attrname="DensityRelativeTo" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="LayerTypeId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ProductClassId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ProductId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="MaxAggSize" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="1" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" Level="-1" Depth="0" Thickness="19" DensityPercent="0" LayerTypeId="4" ProductClassId="5"/>
+		<ROW Id="2" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" Level="0" Depth="0" Thickness="150" DensityPercent="88" DensityRelativeTo="34wreqr" LayerTypeId="5" ProductClassId="10"/>
+		<ROW Id="3" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" Level="0" Depth="0" Thickness="200" DensityPercent="96" LayerTypeId="6" ProductClassId="14"/>
+		<ROW Id="4" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" Level="-1" Depth="0" Thickness="200" DensityPercent="95" LayerTypeId="7" ProductClassId="16"/>
+		<ROW PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" Level="-1" Depth="0" Thickness="150" DensityPercent="0" LayerTypeId="8" ProductClassId="{F74B0951-C4F6-4CC6-87CD-0550A1C8306E}"/>
+		<ROW PavementDesignId="{4CB89105-8D50-42E7-B7D4-0B1318F17CFC}" Level="-1" Depth="0" Thickness="40" DensityPercent="98" LayerTypeId="4" ProductClassId="1"/>
+	</ROWDATA>
+</DATAPACKET>

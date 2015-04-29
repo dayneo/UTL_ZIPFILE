@@ -1,0 +1,263 @@
+CREATE OR REPLACE AND RESOLVE JAVA SOURCE NAMED "org/pgwc/oracle/util/ZipFileClass" AS
+package org.pgwc.oracle.util;
+
+import java.sql.*;
+import java.util.*;
+import java.io.*;
+import java.util.zip.*;
+import java.net.*;
+import java.util.Date;
+import oracle.jdbc.OracleTypes;
+import oracle.sql.*;
+import oracle.jdbc.driver.*;
+
+public class ZipFileClass
+{
+	//
+	// Zip a single binary file
+	//
+	public static oracle.sql.BLOB Zip(java.lang.String filename, oracle.sql.BLOB blobPtr) throws Exception 
+	{
+		//
+		// Prepare output streams
+		//
+		Connection conn = new OracleDriver().defaultConnection();
+		oracle.sql.BLOB zipFile    = oracle.sql.BLOB.createTemporary(conn, true, oracle.sql.BLOB.DURATION_CALL);
+		ZipOutputStream zipStream  = new ZipOutputStream(zipFile.getBinaryOutputStream());
+
+		//
+		// write file
+		//
+		ZipEntry fileEntry = new ZipEntry(filename);
+		zipStream.putNextEntry(fileEntry);
+		InputStream fileStream = blobPtr.getBinaryStream();
+
+   	byte data[] = new byte[2048];
+		int count;
+		while((count = fileStream.read(data, 0, 2048)) != -1) 
+		{
+			zipStream.write(data, 0, count);
+		}
+
+		//
+		// Close off
+		//
+		fileStream.close();
+		zipStream.flush();
+		zipStream.close();
+
+      return zipFile;
+	}
+
+	//
+	// Zip multiple files
+	//
+	public static void AppendFiles(oracle.sql.BLOB[] zipFilePtr, oracle.sql.ARRAY[] filenames, oracle.sql.ARRAY[] blobPtrs) throws Exception 
+	{
+		//
+		// Prepare output streams
+		//
+		Connection conn            = new OracleDriver().defaultConnection();
+		oracle.sql.BLOB zipFile    = oracle.sql.BLOB.createTemporary(conn, true, oracle.sql.BLOB.DURATION_CALL);
+		ZipOutputStream zipStream  = new ZipOutputStream(zipFile.getBinaryOutputStream());
+
+		//
+		// write new files
+		//
+		OracleResultSet rsFilenames = (OracleResultSet)filenames[0].getResultSet();
+		OracleResultSet rsFiles     = (OracleResultSet)blobPtrs[0].getResultSet();
+		for (int i = 0; rsFilenames.next(); i++)
+		{
+			rsFiles.next();
+
+			// extract filename and file pointer
+			java.lang.String filename    = rsFilenames.getString(2);
+			oracle.sql.BLOB blobfile     = rsFiles.getBLOB(2);		
+
+			// write entry
+			ZipEntry fileEntry = new ZipEntry(filename);
+			zipStream.putNextEntry(fileEntry);
+			InputStream fileStream = blobfile.getBinaryStream();
+
+			try
+			{
+   			byte data[] = new byte[2048];
+				int count;
+				while((count = fileStream.read(data, 0, 2048)) != -1) 
+				{
+					zipStream.write(data, 0, count);
+				}
+			}
+			finally
+			{
+				fileStream.close();
+			}
+		}
+
+		//
+		// Close off
+		//
+		zipStream.flush();
+		zipStream.close();
+
+		zipFilePtr[0] = zipFile;
+	}
+
+	private static void AddHashKeys(HashMap map, List keys) throws Exception
+	{
+		for (int i = 0; i < keys.size(); i++) 
+		{
+			Object key = keys.get(i);
+			map.put(key, null);
+		}
+	}
+	
+	private static List GetValues(HashMap map, List keys) throws Exception
+	{
+		List values = new ArrayList();
+		for (int i = 0; i < keys.size(); i++) 
+		{
+			Object key = keys.get(i);
+			Object value = map.get(key);
+			values.add(value);
+		}
+		return values;
+	}
+	
+	private static List Convert(oracle.sql.ARRAY[] array) throws Exception
+	{
+		List list = new ArrayList();
+		if (array[0] != null)
+		{
+			OracleResultSet set = (OracleResultSet)array[0].getResultSet();
+			while (set.next()) list.add(set.getObject(2));
+		}
+		return list;
+	}
+
+	private static oracle.sql.BLOB ReadFile(ZipInputStream zipStream) throws Exception
+	{
+		Connection conn         = new OracleDriver().defaultConnection();
+		oracle.sql.BLOB blob    = oracle.sql.BLOB.createTemporary(conn, true, oracle.sql.BLOB.DURATION_CALL);
+		OutputStream blobStream = blob.getBinaryOutputStream();
+		
+		try
+		{
+			int count;
+			byte data[] = new byte[2048];
+			while ((count = zipStream.read(data, 0, 2048)) != -1) 
+			{
+				blobStream.write(data, 0, count);
+			}
+		}
+		finally
+		{
+			blobStream.close();
+		}
+		
+		return blob;
+	}
+
+	private static HashMap GetEntries(List filenames, ZipInputStream zipStream) throws Exception
+	{
+		HashMap entries = new HashMap();
+		AddHashKeys(entries, filenames);
+		boolean filesSpecified = (filenames.size() == 0) ? false : true;
+
+		//
+		// Read all data from zip file
+		//
+		ZipEntry entry;
+		while((entry = zipStream.getNextEntry()) != null) 
+		{
+			java.lang.String filename = entry.getName();
+			if (filesSpecified)
+			{
+				if (entries.containsKey(filename))
+				{
+					oracle.sql.BLOB blob = ReadFile(zipStream);
+					entries.put(filename, blob);
+				}
+			}
+			else
+			{
+				oracle.sql.BLOB blob = ReadFile(zipStream);
+				filenames.add(filename);
+				entries.put(filename, blob);
+			}
+		}
+		
+		return entries;
+	}
+
+	public static void Unzip(oracle.sql.BLOB[] zipFile, oracle.sql.ARRAY[] filenames, oracle.sql.ARRAY[] blobPtrs) throws Exception 
+	{
+		List entryNames = Convert(filenames);
+		
+		//
+		// Open connections and streams
+		//
+		Connection conn        = new OracleDriver().defaultConnection();
+		ZipInputStream zstream = new ZipInputStream(zipFile[0].getBinaryStream());
+
+		// 
+		// UnZip specified entries
+		//
+		HashMap entries;
+		try
+		{
+			entries = GetEntries(entryNames, zstream);
+		}
+		finally
+		{
+			zstream.close();
+		}
+		
+		//
+		// format for output
+		//
+		ArrayDescriptor descriptor;
+		descriptor = ArrayDescriptor.createDescriptor("VARCHAR2_TABLE_TYPE", conn);
+		filenames[0] = new oracle.sql.ARRAY(descriptor, conn, entryNames.toArray());
+
+		descriptor = ArrayDescriptor.createDescriptor("BLOB_TABLE_TYPE", conn);
+		List entryData = GetValues(entries, entryNames);
+		blobPtrs[0] = new oracle.sql.ARRAY(descriptor, conn, entryData.toArray());
+	}
+	
+	public static oracle.sql.ARRAY ListFiles(oracle.sql.BLOB[] zipFile) throws Exception 
+	{
+		//
+		// Open connections and streams
+		//
+		Connection conn        = new OracleDriver().defaultConnection();
+		ZipInputStream zstream = new ZipInputStream(zipFile[0].getBinaryStream());
+
+		int index = 0;
+		byte data[] = new byte[2048];
+		List entryNames = new ArrayList();
+		ZipEntry entry;
+
+		//
+		// Read all data from zip file
+		//
+		while((entry = zstream.getNextEntry()) != null) 
+		{
+			entryNames.add(entry.getName());
+			index++;
+		}
+
+		zstream.close();
+
+		//
+		// format for output
+		//
+		ArrayDescriptor descriptor;
+		descriptor = ArrayDescriptor.createDescriptor("VARCHAR2_TABLE_TYPE", conn);
+		return new oracle.sql.ARRAY(descriptor, conn, entryNames.toArray());
+	}
+}
+/
+
+SHOW ERRORS
+

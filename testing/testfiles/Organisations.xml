@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="50"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="15"/>
+			<FIELD attrname="AddressId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Tel" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="Fax" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="Email" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="RegNo" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="VATNo" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="OrgTypeId" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW 
+			Id="{F6112894-3D06-4F7C-8CBC-0635E5EEAC7A}" 
+			Name="LTA (Pty) Ltd" 
+			Code="LTA" 
+			AddressId="{3A1C336D-407F-4A2C-BD27-C2CC715D49D2}"/>
+		<ROW 
+			Id="{5168E503-7268-42EE-876C-9CE56256D490}" 
+			Name="Ninham Shand Consulting" 
+			Code="NSH" 
+			AddressId="{08253DAC-35B8-4AAD-9C46-8C782EFC7BC8}"/>
+		<ROW 
+			Id="{DE2F1B9C-229F-4482-80A0-83C6BF6AF3E6}" 
+			Name="Haw &amp; Inglis (Pty) Ltd" 
+			Code="H&amp;I" 
+			AddressId="{6521B7AA-7C6C-4DEF-9D05-E26CA9C30DC7}"/>
+	</ROWDATA>
+</DATAPACKET>

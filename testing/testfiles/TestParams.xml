@@ -1,0 +1,452 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="TestId" fieldtype="i2">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="Sieve" fieldtype="r8">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="Target" fieldtype="r8"/>
+			<FIELD attrname="Tolerance" fieldtype="r8"/>
+			<FIELD attrname="AppTolTo" fieldtype="i2"/>
+			<FIELD attrname="Phi" fieldtype="i2"/>
+			<FIELD attrname="Description" fieldtype="string" WIDTH="50"/>
+			<FIELD attrname="Used" fieldtype="string" WIDTH="1"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1 2 3" PRIMARY_KEY="1 2 3" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW TestId="3" Target="4" Tolerance="1" AppTolTo="1" Description="G1 Colto/WCPA Spec (4 mean, 5 max)" Used="T"/>
+		<ROW Id="{0AA28882-CC4F-41EC-B3B7-1FD34D60D095}" TestId="11" Target="2" Tolerance="0.5" AppTolTo="3" Description="G5 - Grading Modulus" Used="T"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="1.5" AppTolTo="1" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="2" AppTolTo="1" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="4.75" Target="5" Tolerance="5" AppTolTo="3" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="6.699999809265137" Target="25" Tolerance="25" AppTolTo="3" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="9.5" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0B61C858-F9DD-427F-A58F-1108C2677B38}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 3 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="0.07500000298023224" Target="3" Tolerance="2" AppTolTo="3" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="0.300000011920929" Target="6" Tolerance="3" AppTolTo="3" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="2.359999895095825" Target="13" Tolerance="4" AppTolTo="3" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="4.75" Target="25" Tolerance="4" AppTolTo="3" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="9.5" Target="60" Tolerance="5" AppTolTo="3" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0C176C08-55FC-403E-8EB7-4BDBF09D7533}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AT13 - 13.2mm Thin Asphalt Friction Course (defaul" Used="F"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="2" AppTolTo="3" Phi="10" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="0.425000011920929" Target="18" Tolerance="3" AppTolTo="3" Phi="10" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="2" Target="30" Tolerance="4" AppTolTo="3" Phi="10" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="4.75" Target="43" Tolerance="4" AppTolTo="3" Phi="10" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="13.19999980926514" Target="67" Tolerance="5" AppTolTo="3" Phi="20" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="19" Target="78" Tolerance="5" AppTolTo="3" Phi="20" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{0D4AB90E-CB1C-4A0E-8E41-BC3C680692C0}" TestId="1" Sieve="26.5" Target="89" Tolerance="5" AppTolTo="3" Phi="20" Description="G1, G2 and Course G3 Gradings" Used="T"/>
+		<ROW Id="{1205183A-E8DD-420F-9CD1-E35D111AA5E5}" TestId="3" Target="0" Tolerance="0" AppTolTo="1" Description="Non Plastic Sand" Used="T"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="6.699999809265137" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="9.5" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="13.19999980926514" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{14792FBE-F18F-4D46-91F4-F815B680852E}" TestId="1" Sieve="19" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 2 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{15BCC29B-78C6-4D77-9DA5-1E3640ABECDB}" TestId="13" Target="170" Tolerance="70" AppTolTo="3" Description="GWC Class 2 (Urban) Shrinkage Product" Used="T"/>
+		<ROW Id="{18201148-5002-4444-AD06-548787EDA0B5}" TestId="8" Target="80" Tolerance="0" AppTolTo="2" Description="G4 CBR Spec @ 98% MOD" Used="T"/>
+		<ROW Id="{191C30AF-C1AC-422E-B28A-6EF1EA99BB03}" TestId="3" Target="0" Tolerance="12" AppTolTo="1" Description="G6, 7, 8 &amp; 9 Non-Calcrete Colto/WCPA Spec (12 max)" Used="T"/>
+		<ROW Id="{1BA93FD5-584F-41B0-AEB6-8C66E02ACBBA}" TestId="8" Target="10" Tolerance="0" AppTolTo="2" Description="G8 CBR Spec @ 93% MOD" Used="T"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="0.07500000298023224" Target="5" Tolerance="3" AppTolTo="3" Phi="15" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="0.300000011920929" Target="18.5" Tolerance="6.5" AppTolTo="3" Phi="15" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="0.6000000238418579" Target="26.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="2.359999895095825" Target="57.5" Tolerance="12.5" AppTolTo="3" Phi="15" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="4.75" Target="80" Tolerance="10" AppTolTo="3" Phi="15" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="6.699999809265137" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{1C553E56-0D31-4E94-A5A3-11C62DCFEA74}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (coarse grade) aggregates grading" Used="F"/>
+		<ROW Id="{258A6078-7BB7-4E8A-9CA3-549A692C3A35}" TestId="7" Target="4.5" Tolerance="0.4" AppTolTo="3" Phi="15" Description="Semi-Gap &amp; RMB Modified Asphalt WC Generic" Used="T"/>
+		<ROW Id="{2A7890C4-7CE2-4B3C-AC06-860C3846E434}" TestId="18" Target="6" Tolerance="0" AppTolTo="1" Description="Calcrete G5, G6 and Cemented Linear Shrinkage" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="2" AppTolTo="3" Phi="10" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="0.300000011920929" Target="29" Tolerance="3" AppTolTo="3" Phi="10" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="2.359999895095825" Target="46" Tolerance="4" AppTolTo="3" Phi="10" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="4.75" Target="57" Tolerance="4" AppTolTo="3" Phi="10" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="9.5" Target="80" Tolerance="5" AppTolTo="3" Phi="20" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="13.19999980926514" Target="87.5" Tolerance="5" AppTolTo="3" Phi="20" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="19" Target="96" Tolerance="5" AppTolTo="3" Phi="20" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2BD9ADC8-636A-439F-9773-FCC2CE56DE5A}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AS - Semi Gap 26.5mm" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="0.07500000298023224" Target="8.5" Tolerance="3.5" AppTolTo="3" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="0.425000011920929" Target="20" Tolerance="7" AppTolTo="3" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="2" Target="36" Tolerance="9" AppTolTo="3" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="4.75" Target="51" Tolerance="9" AppTolTo="3" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="13.19999980926514" Target="77.5" Tolerance="6.5" AppTolTo="3" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="19" Target="90" Tolerance="5" AppTolTo="3" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{2ED47AE7-AED0-4C71-80C4-875861EC6BF2}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G4 Crushed Fine" Used="T"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="2.359999895095825" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="4.75" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="6.699999809265137" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{307581DB-FA99-4B6C-9BFB-DFA53486605D}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 1 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{32ED548B-38BA-4CC0-ADF8-838689A4A2C7}" TestId="3" Target="0" Tolerance="15" AppTolTo="1" Description="G5 &amp; 6 Calcrete Colto/WCPA Spec (15 max)" Used="T"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="4.75" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="6.699999809265137" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="9.5" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{36B489FB-FDB0-41D8-8074-98E666780AEB}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 2 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="0.07500000298023224" Target="4" Tolerance="2" AppTolTo="3" Phi="10" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="0.300000011920929" Target="6" Tolerance="3" AppTolTo="3" Phi="10" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="2.359999895095825" Target="13" Tolerance="4" AppTolTo="3" Phi="10" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="4.75" Target="25" Tolerance="4" AppTolTo="3" Phi="10" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="9.5" Target="60" Tolerance="5" AppTolTo="3" Phi="20" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{3C591202-A9F0-411E-835D-9B2CC0B19DE7}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="2" Phi="20" Description="AO - Open Graded 13.2mm Type 3 RMB" Used="T"/>
+		<ROW Id="{432F1E38-F5EE-4FE8-8625-E3FD2F0DD830}" TestId="4" Tolerance="5" AppTolTo="3" Description="Base &amp; Subbase - Lot Average Tolerances" Used="T"/>
+		<ROW Id="{443442AC-9361-434C-AB6C-8E94F7F8D1C3}" TestId="8" Target="15" Tolerance="0" AppTolTo="2" Description="GWC CBR Spec @ 95% MOD" Used="T"/>
+		<ROW Id="{47431A3A-A3F8-4E9F-BF51-CEB4FCAF2049}" TestId="8" Target="25" Tolerance="0" AppTolTo="2" Description="G6 CBR Spec @ 95% MOD" Used="T"/>
+		<ROW Id="{4BEB1328-DA52-4E0F-90AE-21BC0781A43B}" TestId="3" Target="0" Tolerance="10" AppTolTo="1" Description="G5 Non-Calcrete Colto/WCPA Spec (10 max)" Used="T"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="0.1500000059604645" Target="1" Tolerance="1" AppTolTo="3" Phi="15" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="0.300000011920929" Target="7.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="0.6000000238418579" Target="25" Tolerance="15" AppTolTo="3" Phi="15" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="1.179999947547913" Target="60" Tolerance="20" AppTolTo="3" Phi="15" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="2.359999895095825" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="4.75" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="6.699999809265137" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4CF6A6C3-D231-4C65-89F1-779ED9AA5EFB}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="WCPA spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="2" AppTolTo="3" Phi="10" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="0.300000011920929" Target="15" Tolerance="3" AppTolTo="3" Phi="10" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="2.359999895095825" Target="34" Tolerance="4" AppTolTo="3" Phi="10" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="4.75" Target="45" Tolerance="4" AppTolTo="3" Phi="10" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="9.5" Target="58.5" Tolerance="5" AppTolTo="3" Phi="10" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="13.19999980926514" Target="67" Tolerance="5" AppTolTo="3" Phi="20" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="19" Target="78" Tolerance="5" AppTolTo="3" Phi="20" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D674857-490B-49E8-B4BF-9DEB3654254D}" TestId="1" Sieve="26.5" Target="89" Tolerance="5" AppTolTo="3" Phi="20" Description="BC - Continuous 37.5mm" Used="T"/>
+		<ROW Id="{4D778B9D-4D43-41C8-BF6C-F95C6AB94B00}" TestId="13" Target="170" Tolerance="0" AppTolTo="1" Description="Calcrete G4 Shrinkage Product" Used="T"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="1.5" AppTolTo="1" Phi="15" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="3" AppTolTo="1" Phi="15" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="2.359999895095825" Target="5" Tolerance="5" AppTolTo="3" Phi="15" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="4.75" Target="25" Tolerance="25" AppTolTo="3" Phi="15" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="6.699999809265137" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{511AA0F9-D7DE-4CCC-8124-D9479E8E9322}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 3 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{51BCBC07-3023-47E2-B5A1-FDA8C81A8D7E}" TestId="11" Target="2.3" Tolerance="0.2" AppTolTo="3" Description="WCPA G4 - Grading Modulus" Used="T"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="4" AppTolTo="3" Phi="15" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="0.300000011920929" Target="26" Tolerance="11" AppTolTo="3" Phi="15" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="0.6000000238418579" Target="36" Tolerance="14" AppTolTo="3" Phi="15" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="2.359999895095825" Target="75.5" Tolerance="19.5" AppTolTo="3" Phi="15" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="4.75" Target="91" Tolerance="9" AppTolTo="3" Phi="15" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="6.699999809265137" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{54666E1F-6657-49A4-81DC-DA7369257B14}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (fmedium grade) aggregates grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="6.699999809265137" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="9.5" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="13.19999980926514" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{556EF127-F0ED-4C3F-8AD7-C93C4CAF85BD}" TestId="1" Sieve="19" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 3 - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="0.07500000298023224" Target="3" Tolerance="2" AppTolTo="3" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="0.300000011920929" Target="6" Tolerance="3" AppTolTo="3" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="2.359999895095825" Target="10" Tolerance="4" AppTolTo="3" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="4.75" Target="18" Tolerance="4" AppTolTo="3" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="9.5" Target="100" Tolerance="5" AppTolTo="2" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="2" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="0" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{57645A1E-0C53-4966-9E05-C0437E90496E}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="2" Phi="20" Description="AT9 - 9.5mm Thin Asphalt Friction Course (default)" Used="F"/>
+		<ROW Id="{58C92B23-6133-4CA9-B0A3-F92B11A8F45B}" TestId="7" Target="5.3" Tolerance="0.3" AppTolTo="3" Phi="15" Description="Asphalt Wearing Course &amp; Base Generic" Used="T"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="4.75" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="6.699999809265137" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="9.5" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5A4F147C-08A5-4D19-932E-2C1E48105D19}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 1 - 9.5mm surface aggregate grading" Used="F"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="2" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="0.300000011920929" Target="14" Tolerance="3" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="2.359999895095825" Target="38" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="4.75" Target="54" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="9.5" Target="77" Tolerance="5" AppTolTo="3" Phi="20" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="13.19999980926514" Target="90" Tolerance="5" AppTolTo="3" Phi="20" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5AE24D5D-6F7A-4A07-9F0F-312AE9BFE773}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 19mm RMB" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="3" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="2" Target="35" Tolerance="15" AppTolTo="3" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="19" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="53" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5C9B303A-24E4-4859-BA63-302F00458D3D}" TestId="1" Sieve="63" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G5 Crushed (WCPA Special)" Used="T"/>
+		<ROW Id="{5EB3FF0A-D525-4498-A9C3-FC8FE425CA14}" TestId="6" Target="20" Tolerance="1.5" AppTolTo="3" Phi="15" Description="Open Graded Asphalt VIM Specification" Used="T"/>
+		<ROW Id="{5F6E698C-8C5D-4539-8E63-73EA8DD1F274}" TestId="18" Target="7" Tolerance="0" AppTolTo="1" Description="Calcrete G7, G8, G9 Linear Shrinkage" Used="T"/>
+		<ROW Id="{65797222-8C43-49D9-A972-57EE7C084D52}" TestId="4" Tolerance="2" AppTolTo="3" Description="Wearing Coarse - Lot Average Tolerances" Used="T"/>
+		<ROW Id="{67982A2C-260E-41D4-879C-4CC037EF2910}" TestId="19" Target="0.2" Tolerance="0" AppTolTo="1" Description="G4 Swell Specification" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="3" AppTolTo="3" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="0.300000011920929" Target="15" Tolerance="5" AppTolTo="3" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="0.6000000238418579" Target="22.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="2.359999895095825" Target="57.5" Tolerance="12.5" AppTolTo="3" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="4.75" Target="80" Tolerance="10" AppTolTo="3" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="6.699999809265137" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{6A2F568A-4F5B-45AA-A948-87CABB9A7ABB}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Course Slurry (Type 1) aggregates grading" Used="F"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="3" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="2" Target="45" Tolerance="25" AppTolTo="3" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="19" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="53" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{702573F8-C5D4-4F0F-BFFA-ED7EE713A143}" TestId="1" Sieve="63" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G5 Natural" Used="T"/>
+		<ROW Id="{727B36AA-A30E-467B-A1A5-ED146B15155B}" TestId="3" Target="0" Tolerance="17" AppTolTo="1" Description="G7, 8 &amp; 9 Calcrete Colto/WCPA Spec (17 max)" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="0.07500000298023224" Target="5" Tolerance="2" AppTolTo="3" Phi="10" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="0.300000011920929" Target="6" Tolerance="3" AppTolTo="3" Phi="10" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="2.359999895095825" Target="16" Tolerance="4" AppTolTo="3" Phi="10" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="4.75" Target="23" Tolerance="4" AppTolTo="3" Phi="10" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="9.5" Target="65" Tolerance="5" AppTolTo="3" Phi="20" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="13.19999980926514" Target="85" Tolerance="5" AppTolTo="3" Phi="20" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{72E3517D-30D3-43C2-8875-A55FC02BD934}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="AO - Open Graded 19mm Spanish PA-12 RMB" Used="T"/>
+		<ROW Id="{755478C4-7285-4F76-AEAC-95E6C1CECDA0}" TestId="10" Target="50" Tolerance="0" AppTolTo="2" Description="Crushed Coluvial and Alluvial Spec" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="2" AppTolTo="3" Phi="10" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="0.300000011920929" Target="22" Tolerance="3" AppTolTo="3" Phi="10" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="2.359999895095825" Target="53" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="4.75" Target="76" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{77CB90B6-FAF2-4E16-B94A-1C9C46A32B82}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 9.5mm" Used="T"/>
+		<ROW Id="{7B27BCAC-0C62-4EEF-A3EA-7AC3AC8B8A17}" TestId="19" Target="1.5" Tolerance="0" AppTolTo="1" Description="G7, G8 and G9 Swell Specification" Used="T"/>
+		<ROW Id="{7B882F84-F199-4CF3-B1E6-15B1C53B545A}" TestId="9" Target="50" Tolerance="0" AppTolTo="1" Description="WCPA G7/8/9 - Coarse Sand Fraction" Used="T"/>
+		<ROW Id="{7C103015-F546-48AE-AB03-E77D10374F6A}" TestId="11" Target="1.725" Tolerance="0.975" AppTolTo="3" Description="G7/8/9 - Grading Modulus" Used="T"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="0.07500000298023224" Target="5" Tolerance="5" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="0.425000011920929" Target="12.5" Tolerance="12.5" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="2.359999895095825" Target="24" Tolerance="24" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="4.75" Target="40" Tolerance="30" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="6.699999809265137" Target="50" Tolerance="30" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="9.5" Target="67" Tolerance="31" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="13.19999980926514" Target="76" Tolerance="24" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F1CC6DE-7E0C-4B18-8581-E8FD036F1DE0}" TestId="1" Sieve="16" Target="90" Tolerance="10" AppTolTo="3" Phi="15" Description="Otta Seal - 19mm surface aggregate grading" Used="F"/>
+		<ROW Id="{7F84DF96-ED15-4B80-A44A-114B51ACC693}" TestId="5" Target="1.875" Tolerance="1.125" AppTolTo="3" Description="C3/C4 WCPA Combined UCS Spec at 100% Mod AASHTO" Used="T"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="6.699999809265137" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="9.5" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="13.19999980926514" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{834C13A5-7B46-4756-9EEE-53650229DD91}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 2 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="2" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="19" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="53" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{85D80BFB-F7B5-420D-8A14-F3E259C23916}" TestId="1" Sieve="75" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G7 Crushed" Used="T"/>
+		<ROW Id="{8B8E5DD9-8E33-479B-8A3F-CBC61EDD6D0D}" TestId="13" Target="320" Tolerance="0" AppTolTo="1" Description="Calcrete G5, G6, G7 and Cemented Shrinkage Product" Used="T"/>
+		<ROW Id="{8E95488D-A278-4CCB-A791-AD9D894FEDD2}" TestId="18" Target="3" Tolerance="0" AppTolTo="1" Description="G4 Linear Shrinkage" Used="T"/>
+		<ROW Id="{8ED2A466-0923-4B8D-A36B-56248514DB22}" TestId="8" Target="45" Tolerance="0" AppTolTo="2" Description="G5 CBR Spec @ 95% MOD" Used="T"/>
+		<ROW Id="{910CB7E0-EEB6-473F-9900-FFE2B3B90ED6}" TestId="4" Tolerance="10" AppTolTo="3" Description="Selected layer - Lot Average Tolerances" Used="T"/>
+		<ROW Id="{92DC81F7-C036-42B1-A637-DAE03B60C8A7}" TestId="6" Target="23" Tolerance="1.5" AppTolTo="3" Phi="15" Description="Standard Thin Asphalt Mix (18 to 28% voids)" Used="F"/>
+		<ROW Id="{938B8EA2-CF53-48C3-A575-E52BA39E5A36}" TestId="14" Target="500" Tolerance="0" AppTolTo="2" Description="GWC Plasticity Factor" Used="T"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="1.5" AppTolTo="1" Phi="15" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="2" AppTolTo="1" Phi="15" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="6.699999809265137" Target="5" Tolerance="5" AppTolTo="3" Phi="15" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="9.5" Target="25" Tolerance="25" AppTolTo="3" Phi="15" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="13.19999980926514" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{94309932-6647-417A-BD94-B8D6644F3405}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 3 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="0.1500000059604645" Target="1" Tolerance="1" AppTolTo="3" Phi="15" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="0.300000011920929" Target="7.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="0.6000000238418579" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="1.179999947547913" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="6.699999809265137" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9691D10F-3B2D-49D4-AB3D-C780FF8A4A6A}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="COLTO spec Sand surface aggregate grading" Used="F"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="2" AppTolTo="3" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="0.425000011920929" Target="20" Tolerance="10" AppTolTo="3" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="2" Target="35" Tolerance="15" AppTolTo="3" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="4.75" Target="45" Tolerance="5" AppTolTo="3" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="19" Target="75" Tolerance="15" AppTolTo="3" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="37.5" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9AEC1C61-329F-4672-ADBC-0530F121CE5A}" TestId="1" Sieve="53" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G4 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{9D94470A-AFFD-4E28-9168-992B56D5AFE8}" TestId="9" Target="40" Tolerance="10" AppTolTo="3" Description="WCPA G4/5/6 - Coarse Sand Fraction" Used="T"/>
+		<ROW Id="{9E427329-B953-4E23-830B-41E6C7D371A8}" TestId="8" Target="7" Tolerance="0" AppTolTo="2" Description="G9 CBR Spec @ 93% MOD" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="6.699999809265137" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="9.5" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="13.19999980926514" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{9F3762F1-5420-47AA-9967-8F0D56EBE9D9}" TestId="1" Sieve="19" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 1 - 19mm surface aggregate grading" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="2" Target="35" Tolerance="15" AppTolTo="3" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="19" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="53" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A594EEA2-8F6C-4647-AB52-F27B0542A19F}" TestId="1" Sieve="63" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G6 Crushed" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="2" AppTolTo="3" Phi="10" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="0.300000011920929" Target="29" Tolerance="3" AppTolTo="3" Phi="10" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="2.359999895095825" Target="46" Tolerance="4" AppTolTo="3" Phi="10" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="4.75" Target="53" Tolerance="4" AppTolTo="3" Phi="10" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="9.5" Target="80" Tolerance="5" AppTolTo="3" Phi="20" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="13.19999980926514" Target="91" Tolerance="5" AppTolTo="3" Phi="20" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A68A8E75-53FB-42DA-9F46-FCCED4B8DD59}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AS - Semi Gap 19mm" Used="T"/>
+		<ROW Id="{A74BCFEB-808F-4FB8-B09C-3D47BC68FD2D}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Roadbed / Fill" Used="T"/>
+		<ROW Id="{A74BCFEB-808F-4FB8-B09C-3D47BC68FD2D}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Roadbed / Fill" Used="T"/>
+		<ROW Id="{A74BCFEB-808F-4FB8-B09C-3D47BC68FD2D}" TestId="1" Sieve="2" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Roadbed / Fill" Used="T"/>
+		<ROW Id="{A74BCFEB-808F-4FB8-B09C-3D47BC68FD2D}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="Roadbed / Fill" Used="T"/>
+		<ROW Id="{A75A6530-FAFF-4E67-92A5-4ED52263D952}" TestId="12" Target="0" Tolerance="0" AppTolTo="1" Description="GWC Class 2 (Urban) Oversize Index" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="0.07500000298023224" Target="20" Tolerance="0" AppTolTo="1" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="0.425000011920929" Target="50" Tolerance="0" AppTolTo="2" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="2" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="4.75" Target="95" Tolerance="0" AppTolTo="2" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="19" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="53" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{A991B1E2-B3AB-403E-A811-37A642695D4D}" TestId="1" Sieve="75" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G8, G9 and G10 Natural Sand" Used="T"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="3" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="0.300000011920929" Target="15" Tolerance="5" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="0.6000000238418579" Target="22.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="2.359999895095825" Target="50" Tolerance="10" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="4.75" Target="70" Tolerance="10" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="6.699999809265137" Target="80" Tolerance="10" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="9.5" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AB70C1DA-5990-4309-844F-9043FEE67BD5}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Coarse Slurry (Type 2) aggregates grading" Used="F"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="0.07500000298023224" Target="6" Tolerance="2" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="0.300000011920929" Target="13" Tolerance="3" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="2.359999895095825" Target="41" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="4.75" Target="60" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="9.5" Target="90" Tolerance="5" AppTolTo="3" Phi="20" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AD130366-D489-4DC2-B017-440ABF830F68}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 13.2mm RMB" Used="T"/>
+		<ROW Id="{AFE539E4-8501-4209-8754-F466522CECAB}" TestId="13" Target="232.5" Tolerance="132.5" AppTolTo="3" Description="GWC Class 1 (Rural) Shrinkage Product" Used="T"/>
+		<ROW Id="{BA912022-0E9D-46EE-9988-9F98549EB6A8}" TestId="12" Target="0" Tolerance="5" AppTolTo="1" Description="GWC Class 1 (Rural) Oversize Index" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="2" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="0.300000011920929" Target="16" Tolerance="3" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="2.359999895095825" Target="39" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="4.75" Target="51" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="9.5" Target="69" Tolerance="5" AppTolTo="3" Phi="20" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="13.19999980926514" Target="78" Tolerance="5" AppTolTo="3" Phi="20" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="2" Phi="20" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0952D6E-E478-435E-8874-578EEE589806}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="2" Phi="20" Description="AC - Continuous 19mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="0.07500000298023224" Target="9" Tolerance="2" AppTolTo="3" Phi="10" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="0.300000011920929" Target="18" Tolerance="3" AppTolTo="3" Phi="10" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="2.359999895095825" Target="39" Tolerance="4" AppTolTo="3" Phi="10" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="4.75" Target="51" Tolerance="4" AppTolTo="3" Phi="10" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="9.5" Target="70" Tolerance="5" AppTolTo="3" Phi="10" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="13.19999980926514" Target="78" Tolerance="5" AppTolTo="3" Phi="10" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="19" Target="90" Tolerance="5" AppTolTo="3" Phi="20" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C0973869-07BD-44A4-8F87-C5A890D1F39F}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="BC - Continuous 26.5mm" Used="T"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="0.07500000298023224" Target="10" Tolerance="5" AppTolTo="3" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="0.425000011920929" Target="20" Tolerance="10" AppTolTo="3" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="2" Target="35" Tolerance="15" AppTolTo="3" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="4.75" Target="48" Tolerance="18" AppTolTo="3" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="19" Target="75" Tolerance="15" AppTolTo="3" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="37.5" Target="92" Tolerance="8" AppTolTo="3" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C21774CF-5FD8-4414-B108-7C3DCEC21B7C}" TestId="1" Sieve="53" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G4 Natural" Used="F"/>
+		<ROW Id="{C8883C63-BBEA-479E-B4C8-77C392385D4D}" TestId="4" Tolerance="0" AppTolTo="2" Description="Gravel Wearing Course and Shoulders" Used="T"/>
+		<ROW Id="{D0074043-C544-4C05-9766-50845FDEDBCC}" TestId="18" Target="5" Tolerance="0" AppTolTo="1" Description="G5, G6, Cemented  Linear Shrinkage" Used="T"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0.5" AppTolTo="1" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="2.359999895095825" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="6.699999809265137" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="9.5" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="13.19999980926514" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D10F9738-C4F4-4E2A-A20A-A572E51D604C}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 1 - 13.2mm surface aggregate grading" Used="F"/>
+		<ROW Id="{D1EA64CC-1379-4CE0-88A4-D60AA0C8727E}" TestId="11" Target="1.9" Tolerance="0.7" AppTolTo="3" Description="G6 - Grading Modulus" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="0.07500000298023224" Target="9" Tolerance="2" AppTolTo="3" Phi="10" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="0.425000011920929" Target="20" Tolerance="3" AppTolTo="3" Phi="10" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="2" Target="36" Tolerance="4" AppTolTo="3" Phi="10" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="4.75" Target="47" Tolerance="4" AppTolTo="3" Phi="10" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="13.19999980926514" Target="78" Tolerance="5" AppTolTo="3" Phi="20" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="19" Target="90" Tolerance="5" AppTolTo="3" Phi="20" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D5A7EB89-B08B-4FB4-B2CF-CA75B58E17E6}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="2" Phi="20" Description="G3 Fine" Used="T"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="0.07500000298023224" Target="1" Tolerance="1" AppTolTo="3" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="0.1500000059604645" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="0.300000011920929" Target="5" Tolerance="5" AppTolTo="3" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="0.6000000238418579" Target="10" Tolerance="10" AppTolTo="3" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="1.179999947547913" Target="25" Tolerance="25" AppTolTo="3" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="2.359999895095825" Target="50" Tolerance="50" AppTolTo="3" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="4.75" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D804B68F-7369-41D5-8317-5B72153CE35B}" TestId="1" Sieve="6.699999809265137" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="WCPA spec Grit surface aggregate grading" Used="F"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="0.07500000298023224" Target="7" Tolerance="2" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="0.300000011920929" Target="15" Tolerance="3" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="2.359999895095825" Target="46" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="4.75" Target="69" Tolerance="4" AppTolTo="3" Phi="10" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="9.5" Target="88" Tolerance="5" AppTolTo="3" Phi="20" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="5" AppTolTo="1" Phi="20" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{D8EDDDF6-E800-48D6-A15E-F582E9DA5F24}" TestId="1" Sieve="26.5" Target="100" Tolerance="0" AppTolTo="1" Phi="20" Description="AC - Continuous 13.2mm" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="2" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="63" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DB9E3AA2-2A9D-4190-977F-999377CC99EC}" TestId="1" Sieve="106" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G7 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{DF7137BE-BE4B-4BD3-8C09-51584392173A}" TestId="19" Target="1" Tolerance="0" AppTolTo="1" Description="G6 Swell Specification" Used="F"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="2" Target="45" Tolerance="25" AppTolTo="3" Phi="0" Description="G6 Natural (WCPA Special)" Used="T"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="63" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{E190CC3F-C0A4-4D40-A87D-F167334CD005}" TestId="1" Sieve="106" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="G6 Natural (targets depend on layer thickness)" Used="T"/>
+		<ROW Id="{E4D855C6-D953-4505-B78B-518D15B28381}" TestId="19" Target="0.5" Tolerance="0" AppTolTo="1" Description="G4 Calcrete Swell Specification" Used="F"/>
+		<ROW Id="{E7A4AB83-CC92-473F-ABE0-0412334382BB}" TestId="19" Target="0.5" Tolerance="0" AppTolTo="1" Description="G5 Swell Specification" Used="F"/>
+		<ROW Id="{ED14F7E0-1C78-4C97-90D0-655125C0B750}" TestId="8" Target="15" Tolerance="0" AppTolTo="2" Description="G7 CBR Spec @ 93% MOD" Used="T"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="1" AppTolTo="1" Phi="15" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="2" AppTolTo="1" Phi="15" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="2.359999895095825" Target="2.5" Tolerance="2.5" AppTolTo="3" Phi="15" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="4.75" Target="15" Tolerance="15" AppTolTo="3" Phi="15" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="6.699999809265137" Target="92.5" Tolerance="7.5" AppTolTo="3" Phi="15" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{EE99D4A2-F01E-473A-8AFE-E7F89C77F052}" TestId="1" Sieve="19" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Grade 2 - 6.7mm surface aggregate grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="4" AppTolTo="3" Phi="15" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="0.300000011920929" Target="35.5" Tolerance="12.5" AppTolTo="3" Phi="15" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="0.6000000238418579" Target="57" Tolerance="15" AppTolTo="3" Phi="15" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="2.359999895095825" Target="95" Tolerance="5" AppTolTo="3" Phi="15" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="4.75" Target="100" Tolerance="0" AppTolTo="1" Phi="15" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="6.699999809265137" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="9.5" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F24D1BFC-F9FD-4C43-A9AA-63E2BE49D4E6}" TestId="1" Sieve="13.19999980926514" Target="100" Tolerance="0" AppTolTo="1" Phi="0" Description="Fine Slurry (fine grade) aggregates grading" Used="F"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="0.07500000298023224" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="0.425000011920929" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="2" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="4.75" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="26.5" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="37.5" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{F4A7CAD1-8A33-4547-B20D-5F132174D079}" TestId="1" Sieve="53" Target="0" Tolerance="0" AppTolTo="0" Phi="0" Description="GWC - Urban and Rural Gravel Wearing Course" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="0.07500000298023224" Target="8" Tolerance="4" AppTolTo="3" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="0.425000011920929" Target="17.5" Tolerance="6.5" AppTolTo="3" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="2" Target="31.5" Tolerance="8.5" AppTolTo="3" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="4.75" Target="44.5" Tolerance="8.5" AppTolTo="3" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="19" Target="77.5" Tolerance="6.5" AppTolTo="3" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="26.5" Target="89" Tolerance="5" AppTolTo="3" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="{FDF7735A-8F2F-45FA-8FF5-C9ACCFC77AF5}" TestId="1" Sieve="37.5" Target="100" Tolerance="0" AppTolTo="2" Phi="0" Description="G4 Crushed Coarse" Used="T"/>
+		<ROW Id="16" TestId="3" Target="0" Tolerance="6" AppTolTo="1" Description="G4 Non-Calcrete Colto/WCPA Spec (6 max)" Used="T"/>
+		<ROW Id="17" TestId="3" Target="4.5" Tolerance="1.5" AppTolTo="1" Description="G2 Colto/WCPA Spec (4.5 mean, 6 max)" Used="T"/>
+		<ROW Id="19" TestId="3" Target="0" Tolerance="6" AppTolTo="1" Description="G3 Colto/WCPA Spec (6 max)" Used="T"/>
+		<ROW Id="21" TestId="3" Target="0" Tolerance="8" AppTolTo="1" Description="G4 Calcrete Colto/WCPA Spec (8 max)" Used="T"/>
+		<ROW Id="36" TestId="5" Target="1.125" Tolerance="0.375" AppTolTo="3" Description="C4 UCS Spec at 100% Mod AASHTO" Used="T"/>
+		<ROW Id="38" TestId="5" Target="2.25" Tolerance="0.75" AppTolTo="3" Description="C3 UCS Spec at 100% Mod AASHTO" Used="T"/>
+		<ROW Id="42" TestId="6" Target="5" Tolerance="1.5" AppTolTo="3" Phi="15" Description="General Asphalt VIM Specification" Used="T"/>
+		<ROW Id="57" TestId="2" AppTolTo="2" Phi="15" Description="General Phi Spec (Applies to all)" Used="T"/>
+	</ROWDATA>
+</DATAPACKET>

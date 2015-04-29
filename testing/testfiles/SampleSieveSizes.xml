@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="AcceptanceLotId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="NoOfSieves" fieldtype="i4"/>
+			<FIELD attrname="SieveSize1" fieldtype="r8"/>
+			<FIELD attrname="SieveSize2" fieldtype="r8"/>
+			<FIELD attrname="SieveSize3" fieldtype="r8"/>
+			<FIELD attrname="SieveSize4" fieldtype="r8"/>
+			<FIELD attrname="SieveSize5" fieldtype="r8"/>
+			<FIELD attrname="SieveSize6" fieldtype="r8"/>
+			<FIELD attrname="SieveSize7" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA></ROWDATA>
+</DATAPACKET>

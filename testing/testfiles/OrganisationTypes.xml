@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="15"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{1951EE09-8249-437B-A921-ECD6972FAA9F}" Name="Contractor" Code="CTR"/>
+		<ROW Id="{1E26B1E7-A0C0-4031-84E8-4713639E7456}" Name="Engineer" Code="Eng"/>
+	</ROWDATA>
+</DATAPACKET>

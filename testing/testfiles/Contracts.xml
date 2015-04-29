@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/><!-- contract_no -->
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/><!-- project_name -->
+			<FIELD attrname="TenderNo" fieldtype="string" WIDTH="20"/><!-- tender_no -->
+			<FIELD attrname="StartDate" fieldtype="date"/><!-- start_date -->
+			<FIELD attrname="Enddate" fieldtype="date"/><!-- finish_date -->
+			<FIELD attrname="Description" fieldtype="string" WIDTH="120"/><!-- description -->
+			<FIELD attrname="StartKm" fieldtype="r8"/><!-- startkm -->
+			<FIELD attrname="EndKm" fieldtype="r8"/><!-- endkm -->
+			<FIELD attrname="AuthorityId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="EngineerId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ContractorId" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW 
+			Id="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" 
+			Code="C636" 
+			Name="Rehabilitation &amp; Reconstruction of MR23" 
+			TenderNo="" 
+			StartDate="20060101" 
+			Enddate="20071231" 
+			EngineerId="{5168E503-7268-42EE-876C-9CE56256D490}" 
+			ContractorId="{DE2F1B9C-229F-4482-80A0-83C6BF6AF3E6}"
+		/>
+	</ROWDATA>
+</DATAPACKET>

@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="15"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="50"/>
+			<FIELD attrname="MaterialSourceId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="MaterialTypeId" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{3AF78E5E-D295-46C9-9916-813B8B32CFE2}" Name="Borrow Pit 29 Ferricrete" MaterialSourceId="{A040ADF7-CAFC-44E7-9D60-361DEFDD04CF}" MaterialTypeId="{948B0E60-5B89-4204-8652-C42F52B5CB61}"/>
+		<ROW Id="{95887709-B2A8-4B57-A58B-00733B2107E1}" Code="" Name="Rheebok Quarry Granite" MaterialSourceId="{0EF8F624-B8F3-421A-A12E-8266B97A9692}" MaterialTypeId="{3D0FF9F5-9970-4BC9-9B86-67647EF6080F}"/>
+		<ROW Id="{43D0C619-8606-4BFD-B865-7D6B8160EE2A}" Code="" Name="Eerste River Quarry Basalt" MaterialSourceId="{448C4ACF-7B4C-4447-AA51-AB4589539661}" MaterialTypeId="{68F0D15E-642C-4138-8F3A-CAB48B6FBEA6}"/>
+	</ROWDATA>
+</DATAPACKET>

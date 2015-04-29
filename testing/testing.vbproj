@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A13F4D18-8FD0-4BFF-9777-F9BAE7533615}</ProjectGuid>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>testing</RootNamespace>
+    <AssemblyName>testing</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>testing.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>testing.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=2.111.6.20, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLOB_TABLE_TYPE.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionalTests.vb" />
+    <Compile Include="OraUtils.vb" />
+    <Compile Include="TestUtils.vb" />
+    <Compile Include="UTL_ZIPFILE.vb" />
+    <Compile Include="VARCHAR2_TABLE_TYPE.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="testfiles\AcceptanceLots.xml" />
+    <Content Include="testfiles\AcceptanceLotSources.xml" />
+    <Content Include="testfiles\AcceptanceSpecs.xml" />
+    <Content Include="testfiles\AccTestParams.xml" />
+    <Content Include="testfiles\AccTests.xml" />
+    <Content Include="testfiles\Addresses.xml" />
+    <Content Include="testfiles\AggTypes.xml" />
+    <Content Include="testfiles\Authorities.xml" />
+    <Content Include="testfiles\cdsRegisteredContracts.xml" />
+    <Content Include="testfiles\ContractRoads.xml" />
+    <Content Include="testfiles\Contracts.xml" />
+    <Content Include="testfiles\CrossSections.xml" />
+    <Content Include="testfiles\DesignCertificates.xml" />
+    <Content Include="testfiles\DesignLayers.xml" />
+    <Content Include="testfiles\DesignSegments.xml" />
+    <Content Include="testfiles\Flakiness.xml" />
+    <Content Include="testfiles\FracturedFaces.xml" />
+    <Content Include="testfiles\Gradations.xml" />
+    <Content Include="testfiles\LayerClasses.xml" />
+    <Content Include="testfiles\Layers.xml" />
+    <Content Include="testfiles\LayerTypeLevels.xml" />
+    <Content Include="testfiles\LayerTypes.xml" />
+    <Content Include="testfiles\Lots.xml" />
+    <Content Include="testfiles\Materials.xml" />
+    <Content Include="testfiles\MaterialSources.xml" />
+    <Content Include="testfiles\MaterialSourceTypes.xml" />
+    <Content Include="testfiles\MaterialTests.xml" />
+    <Content Include="testfiles\MaterialTypes.xml" />
+    <Content Include="testfiles\MaxAggSizes.xml" />
+    <Content Include="testfiles\OldNewLayerNames.xml" />
+    <Content Include="testfiles\Organisations.xml" />
+    <Content Include="testfiles\OrganisationTypes.xml" />
+    <Content Include="testfiles\OutlierCriticalValues.xml" />
+    <Content Include="testfiles\PavementDesigns.xml" />
+    <Content Include="testfiles\PavementSegments.xml" />
+    <Content Include="testfiles\ProductClasses.xml" />
+    <Content Include="testfiles\ProductGroups.xml" />
+    <Content Include="testfiles\ProductMaterials.xml" />
+    <Content Include="testfiles\Products.xml" />
+    <Content Include="testfiles\RegisteredContracts.xml" />
+    <Content Include="testfiles\Roads.xml" />
+    <Content Include="testfiles\Samples.xml" />
+    <Content Include="testfiles\SampleSieveSizes.xml" />
+    <Content Include="testfiles\SieveSizes.xml" />
+    <Content Include="testfiles\Table_C10.xml" />
+    <Content Include="testfiles\Table_C11.xml" />
+    <Content Include="testfiles\Table_C2.xml" />
+    <Content Include="testfiles\Table_C3.xml" />
+    <Content Include="testfiles\Table_C8.xml" />
+    <Content Include="testfiles\Table_C9.xml" />
+    <Content Include="testfiles\TestParams.xml" />
+    <Content Include="testfiles\Treatments.xml" />
+    <Content Include="testfiles\UCS.xml" />
+    <Content Include="testfiles\Users.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

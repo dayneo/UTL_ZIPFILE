@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="ProductClassId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Calcrete" fieldtype="string" WIDTH="1"/>
+			<FIELD attrname="Crushed" fieldtype="string" WIDTH="1"/>
+			<FIELD attrname="MaxAggSize" fieldtype="r8"/>
+			<FIELD attrname="MaxAggRatio" fieldtype="r8"/>
+			<FIELD attrname="AggregateGrade" fieldtype="i2"/>
+			<FIELD attrname="ModifiedBinder" fieldtype="string" WIDTH="1"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{02B98063-545E-4119-82AC-503ACB4A95D1}" ProductClassId="{6693D874-5D58-4E53-AD7D-8E44F18B6487}" Name="C3/C4 - Cemented G5 Crushed" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{0782E45E-C909-4DC6-817D-A679FAA15994}" ProductClassId="{C0AB6275-9C00-4FE5-A110-D5A03CA7F966}" Name="Rural Gravel Wearing Course" Calcrete="F" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{0880F497-BD67-4C7D-A99C-B76752F062B9}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 3 - 4.75mm surface aggregate" MaxAggSize="4.75" AggregateGrade="3"/>
+		<ROW Id="{0A5A2726-5AEA-44A4-8540-4F7737BEF1FB}" ProductClassId="12" Code="B4CSN" Name="G4 Natural Calcrete" Calcrete="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{11E98B99-68B2-42AD-A557-01E0B61CAEBC}" ProductClassId="13" Code="S5NSN" Name="G5 Crushed" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{1265C998-AAE0-4994-B8F7-04B7F39E24B6}" ProductClassId="13" Name="G5 Natural Calcrete" Calcrete="T" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{12CD9C9C-9160-4D44-B09F-10DA17B0B387}" ProductClassId="14" Name="G7 Natural (WCPA 0.5 x Upper Layer)" MaxAggSize="75" MaxAggRatio="0.5" AggregateGrade="1"/>
+		<ROW Id="{148F36C6-7AD3-416C-AB18-7E0F93597A08}" ProductClassId="14" Code="S7NSCN" Name="G7 Crushed" Crushed="T" MaxAggSize="75" AggregateGrade="1"/>
+		<ROW Id="{14BB7AB5-DB33-493B-BFA6-B485D15E4D5F}" ProductClassId="{99ED5954-5B25-4AB3-B223-6F9EB2DEE146}" Name="WCPA Grit Seal aggregate" MaxAggSize="4.75" AggregateGrade="1"/>
+		<ROW Id="{183F3337-5F38-4523-BA31-26A9D1BA4251}" ProductClassId="12" Code="B4CSC" Name="G4 Crushed Calcrete Coarse 37.5mm" Calcrete="T" Crushed="T" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{1BD11ABF-A6C1-492C-9EE8-8E6D8918CFB7}" ProductClassId="3" Name="Open Graded 13.2mm Type 3 Rubber Mod" MaxAggSize="13.2" AggregateGrade="3" ModifiedBinder="T"/>
+		<ROW Id="{1BF37300-640D-421C-9617-D8B7737DEE3B}" ProductClassId="16" Name="G9 Natural Sand" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{1D05303B-573B-499C-97A5-5315E19C33FA}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 2 - 13.2mm surface aggregate" MaxAggSize="13.2" AggregateGrade="2"/>
+		<ROW Id="{1D562AEE-8A2B-4656-ACA4-0888BEB48829}" ProductClassId="{20C74208-BA96-48DE-8441-CAC41B93787B}" Name="C3 - Cemented G5 Crushed Calcrete" Calcrete="T" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{21F8D247-6CC9-43B8-9987-70FD9E9EFF63}" ProductClassId="14" Name="G7 Natural Calcrete (WCPA Upper Layer)" Calcrete="T" MaxAggSize="75" MaxAggRatio="0.5" AggregateGrade="1"/>
+		<ROW Id="{243BEC1E-D867-4413-A9AE-D956D8439CAA}" ProductClassId="{8BEF5F73-AF2D-407A-BD8A-4D98C69CA328}" Name="WCPA Otta Seal aggregate" MaxAggSize="19" AggregateGrade="1"/>
+		<ROW Id="{2698D52C-4562-435D-868B-4A0E39C8B611}" ProductClassId="16" Name="G9 Natural Calcrete" Calcrete="T" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{2AB4F543-710F-4805-8352-8BA9CEC84CFD}" ProductClassId="{6C9BAF69-8324-4E99-8AEB-F5E272B873C3}" Name="Coarse Type 2 Slurry Aggregate" MaxAggSize="13.2" AggregateGrade="1"/>
+		<ROW Id="{2C89EAE5-44D1-4F4F-93B8-6DE6E18665E0}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 2 - 9.5mm surface aggregate" MaxAggSize="9.5" AggregateGrade="2"/>
+		<ROW Id="{2DA992AD-C265-4857-A535-8CEA4AB667A8}" ProductClassId="{0BC92068-5E98-49D6-88FE-9FA2B1E7C7BE}" Name="G6 Natural Calcrete" Calcrete="T" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{333098D6-4F90-4706-9B43-4C21F012078C}" ProductClassId="15" Code="S8NMNN" Name="G8 Natural" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{362C0C50-728C-45B6-8222-B35D8809929B}" ProductClassId="{C8A0B9D9-407E-4107-96DA-6A4E96939FBE}" Name="WCPA Sand aggregate" MaxAggSize="2.36" AggregateGrade="1"/>
+		<ROW Id="{38489337-479D-4C5A-88A9-9F2331B24904}" ProductClassId="{0CC6D5A3-050F-4FD2-88FF-FD8EDD2A0603}" Name="C4 - Cemented G5 Crushed Calcrete" Calcrete="T" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{3FFAAA84-D22E-41A1-84EC-A6C7683F7DF7}" ProductClassId="11" Code="B3USN" Name="G3 Course 37.5mm" Crushed="T" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{444E19D4-96CE-45D5-B587-14608BA6D907}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 3 - 6.7mm surface aggregate" MaxAggSize="6.7" AggregateGrade="3"/>
+		<ROW Id="{46406F6D-3757-496D-A8A8-5E6F77D51959}" ProductClassId="{126ECDB0-20C5-47E5-B38C-F3410DB0E803}" Name="General Rockfill" MaxAggSize="106" AggregateGrade="1"/>
+		<ROW Id="{489C4880-A036-42DD-A1A7-CB56EE80D100}" ProductClassId="{0BC92068-5E98-49D6-88FE-9FA2B1E7C7BE}" Name="G6 Natural" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{4B2CF1B3-326B-4D3F-8A1A-156112543173}" ProductClassId="12" Code="B4NSN" Name="G4 Natural" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{5451F548-6191-43A0-AAD3-02F2C62BA91C}" ProductClassId="3" Name="WCPA Spanish PA-12 19mm Rubber Modified" MaxAggSize="19" AggregateGrade="1" ModifiedBinder="T"/>
+		<ROW Id="{562DCF86-A8D4-4E50-92A5-872A9E9FB13C}" ProductClassId="11" Name="G3 Fine 26.5mm" Crushed="T" MaxAggSize="26.5" AggregateGrade="1"/>
+		<ROW Id="{57F5CA06-95E4-41BB-8753-ED0015D2419B}" ProductClassId="6" Code="UT01" MaxAggSize="0" AggregateGrade="1"/>
+		<ROW Id="{58745D73-EC4C-4F0F-A3C0-50A5EC581A00}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 2 - 6.7mm surface aggregate" MaxAggSize="6.7" AggregateGrade="2"/>
+		<ROW Id="{5AE80497-CEE1-4E13-B291-A091BF6676C1}" ProductClassId="{6693D874-5D58-4E53-AD7D-8E44F18B6487}" Name="C3/C4 - Cemented G5 Natural" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{5C5E955F-ADC6-4ABC-94DB-D853E788948C}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 3 - 13.2mm surface aggregate" MaxAggSize="13.2" AggregateGrade="3"/>
+		<ROW Id="{5E61662D-95CE-49B5-9272-2C4E77F37993}" ProductClassId="12" Code="B4NSC" Name="G4 Crushed Coarse 37.5mm" Crushed="T" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{6078424C-E8A2-4D63-AC79-1E961B8FB51F}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 3 - 19mm surface aggregate" MaxAggSize="19" AggregateGrade="3"/>
+		<ROW Id="{6173E7FB-92EC-4459-9A8C-9B9B54FB05E5}" ProductClassId="{0CC6D5A3-050F-4FD2-88FF-FD8EDD2A0603}" Name="C4 - Cemented G5 Natural" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{629F556A-ABC8-43B2-93A2-E24CCCDB3768}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 3 - 9.5mm surface aggregate" MaxAggSize="9.5" AggregateGrade="3"/>
+		<ROW Id="{62A4BC61-9D97-4E38-A6F1-B5600AB1DA05}" ProductClassId="{20C74208-BA96-48DE-8441-CAC41B93787B}" Name="C3 - Cemented G5 Natural" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{67ED0871-55A6-45F0-9F10-9646DBB91433}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 2 - 19mm surface aggregate" MaxAggSize="19" AggregateGrade="2"/>
+		<ROW Id="{6CC2BBB6-9CDD-4EBF-B6D2-8FF0FD32AFC2}" ProductClassId="{0CC6D5A3-050F-4FD2-88FF-FD8EDD2A0603}" Name="C4 - Cemented G5 Crushed" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{72E483A9-6BF1-470C-8F6A-5B03C4B8C1FE}" ProductClassId="15" Code="S8CMNN" Name="G8 Natural Calcrete" Calcrete="T" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{767C8C70-503A-4BFA-964E-14FC3F00FF32}" ProductClassId="14" Name="G7 Natural Calcrete" Calcrete="T" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{76ED0E02-06AB-47CB-98FF-6F85A82E1F1F}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 1 - 19mm surface aggregate" MaxAggSize="19" AggregateGrade="1"/>
+		<ROW Id="{78724283-2D09-4E9F-9678-C09777659972}" ProductClassId="1" Name="Continuous 19mm" MaxAggSize="19" AggregateGrade="1"/>
+		<ROW Id="{7C44E57A-451F-492B-83D4-EAD7E8ED73F0}" ProductClassId="1" Name="Continuous 9.5mm" MaxAggSize="9.5" AggregateGrade="1"/>
+		<ROW Id="{7CA5102A-888E-434C-A66E-3152067FE02E}" ProductClassId="5" Code="ASUSC" Name="Semi-Gap 26.5mm" MaxAggSize="26.5" AggregateGrade="1"/>
+		<ROW Id="{7DCAA2B9-9A99-4DE7-928A-92DDEB0B2968}" ProductClassId="{54DC5D75-058C-46BA-9139-21BE4C61A9CE}" Name="Continuous 37.5mm Asphalt Base" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{80E7C19B-8C1C-4626-99CA-247DFD739D99}" ProductClassId="{6C9BAF69-8324-4E99-8AEB-F5E272B873C3}" Name="Fine Fine Grade Slurry Aggregate" MaxAggSize="4.75" AggregateGrade="1"/>
+		<ROW Id="{8432BD33-A085-4290-9CA7-3D737FFD8E39}" ProductClassId="14" Name="G7 Natural" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{85B8309B-3091-400B-8B32-611BB290BF65}" ProductClassId="5" Code="ASUSN" Name="Semi-Gap 19mm" MaxAggSize="19" AggregateGrade="1"/>
+		<ROW Id="{88FF8143-9167-4084-A3CD-6D2A6CC83210}" ProductClassId="{C8A0B9D9-407E-4107-96DA-6A4E96939FBE}" Name="COLTO Sand aggregate" MaxAggSize="6.7" AggregateGrade="1"/>
+		<ROW Id="{8AEC9467-60F6-402F-82AA-95969CC0B515}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 2 - 4.75mm surface aggregate" MaxAggSize="4.75" AggregateGrade="2"/>
+		<ROW Id="{979B763B-0436-4C95-85E1-15D73058EB41}" ProductClassId="{0CC6D5A3-050F-4FD2-88FF-FD8EDD2A0603}" Name="C4 - Cemented G5 Natural Calcrete" Calcrete="T" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{97AA4CDF-A0F3-470A-8252-409658A08D06}" ProductClassId="{6C9BAF69-8324-4E99-8AEB-F5E272B873C3}" Name="Coarse Type 1 Slurry Aggregate" MaxAggSize="9.5" AggregateGrade="1"/>
+		<ROW Id="{9BC6A666-1356-4D59-9326-DC6D7A551EB2}" ProductClassId="{EFA4AA95-7A3E-45B6-9543-98EA3C64F4A7}" Name="G1" Crushed="T" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{A07BEDA5-2EF4-4A12-ABE7-C68B9A756ADD}" ProductClassId="{5BDBEB7C-DF1C-4327-AF04-465054414AE1}" Name="Urban Gravel Wearing Course" MaxAggSize="37.5"/>
+		<ROW Id="{A2A92228-8B8D-4078-97C7-2F00C9462206}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 1 - 13.2mm surface aggregate" MaxAggSize="13.2" AggregateGrade="2"/>
+		<ROW Id="{A52BBF66-FD4B-4E01-9283-8A2C06B54AC7}" ProductClassId="{20C74208-BA96-48DE-8441-CAC41B93787B}" Name="C3 - Cemented G5 Natural Calcrete" Calcrete="T" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{A6606480-C5AF-4EA3-9B29-CE1ADC5A9CCC}" ProductClassId="1" Code="ACUSM" Name="Continuous 13.2mm" MaxAggSize="13.2" AggregateGrade="1"/>
+		<ROW Id="{A715E889-3C34-4CE2-971F-D6C2F07CB685}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 1 - 2.36mm surface aggregate" MaxAggSize="2.36" AggregateGrade="1"/>
+		<ROW Id="{AC06F187-F7FE-49A9-B613-93FAA37A7688}" ProductClassId="1" Name="Continuous 13.2mm Rubber Modified" MaxAggSize="13.2" AggregateGrade="1" ModifiedBinder="T"/>
+		<ROW Id="{ADA3CF39-EDC9-44C3-85C4-B2E3309D6DDB}" ProductClassId="14" Name="G7 Crushed Calcrete" Calcrete="T" Crushed="T" MaxAggSize="75" AggregateGrade="1"/>
+		<ROW Id="{B09B2E8F-2E41-4DB7-9B6C-C2FB02358485}" ProductClassId="{54DC5D75-058C-46BA-9139-21BE4C61A9CE}" Name="Continuous 26.5mm Asphalt Base" MaxAggSize="26.5" AggregateGrade="1"/>
+		<ROW Id="{B18B2643-9498-4A29-A81C-44B4CF7B664A}" ProductClassId="12" Name="G4 Crushed Fine 26.5mm" Crushed="T" MaxAggSize="26.5" AggregateGrade="1"/>
+		<ROW Id="{B3BF63DF-5522-4364-8B39-535DACF16A2E}" ProductClassId="{6693D874-5D58-4E53-AD7D-8E44F18B6487}" Name="C3/C4 - Cemented G5 Natural Calcrete" Calcrete="T" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{B430C752-151C-4505-89C3-B746878B345E}" ProductClassId="{F74B0951-C4F6-4CC6-87CD-0550A1C8306E}" Name="General Fill" MaxAggSize="106" AggregateGrade="1"/>
+		<ROW Id="{B8DC4F2F-D04E-4142-AA30-4552351DBB41}" ProductClassId="{6693D874-5D58-4E53-AD7D-8E44F18B6487}" Name="C3/C4 - Cemented G5 Crushed Calcrete" Calcrete="T" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{BCED622B-5CD4-4628-B0D9-520E72560EF6}" ProductClassId="{0BC92068-5E98-49D6-88FE-9FA2B1E7C7BE}" Name="G6 Crushed" Crushed="T" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{C5E84AF0-450F-410B-A346-FA4CB8DB4018}" ProductClassId="{20C74208-BA96-48DE-8441-CAC41B93787B}" Name="C3 - Cemented G5 Crushed" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{C6C18886-3D93-43D4-84AE-BCA161EAC07D}" ProductClassId="12" Name="G4 Crushed Calcrete Fine 26.5mm" Calcrete="T" Crushed="T" MaxAggSize="26.5" AggregateGrade="1"/>
+		<ROW Id="{CD97EECE-4FE9-4C74-95C0-37966CD8F637}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 3 - 2.36mm surface aggregate" MaxAggSize="2.36" AggregateGrade="3"/>
+		<ROW Id="{CFD6CFC7-0A35-41A0-8DAB-7D2419A25DA1}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 2 - 2.36mm surface aggregate" MaxAggSize="2.36" AggregateGrade="2"/>
+		<ROW Id="{DB9500EB-85BA-44F9-A08C-B76B9A67EFD7}" ProductClassId="10" Name="G2" Crushed="T" MaxAggSize="37.5" AggregateGrade="1"/>
+		<ROW Id="{E2633E1E-07DD-4AB6-A5E4-B48C87ED1650}" ProductClassId="13" Name="G5 Crushed Calcrete" Calcrete="T" Crushed="T" MaxAggSize="53" AggregateGrade="1"/>
+		<ROW Id="{E7A88757-F137-4789-B523-2FFA008BB84B}" ProductClassId="1" Name="Continuous 19mm Rubber Modified" MaxAggSize="19" AggregateGrade="1" ModifiedBinder="T"/>
+		<ROW Id="{E9DC22B5-08D6-4F74-97C0-9974AEAC861A}" ProductClassId="{0BC92068-5E98-49D6-88FE-9FA2B1E7C7BE}" Name="G6 Crushed Calcrete" Calcrete="T" Crushed="T" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{EADFAC1E-FD21-45EB-BF7D-A3D4D6C73E95}" ProductClassId="16" Name="G9 Natural" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+		<ROW Id="{EF6F9C16-CE72-47C9-95AB-DD548656EB7B}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 1 - 9.5mm surface aggregate" MaxAggSize="9.5" AggregateGrade="1"/>
+		<ROW Id="{F66FB786-37D4-4479-9953-FA1CC49283C2}" ProductClassId="{6C9BAF69-8324-4E99-8AEB-F5E272B873C3}" Name="Fine Coarse Grade Slurry Aggregate" MaxAggSize="6.7" AggregateGrade="1"/>
+		<ROW Id="{FA43DBDE-FB06-4C90-A15F-D1A0A35A0B66}" ProductClassId="13" Name="G5 Natural" MaxAggSize="63" AggregateGrade="1"/>
+		<ROW Id="{FBE2A188-2F73-4294-B910-888BBF7F0209}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 1 - 4.75mm surface aggregate" MaxAggSize="4.75" AggregateGrade="1"/>
+		<ROW Id="{FD4791C7-50A6-4E37-8C7E-671A747CF7DA}" ProductClassId="{708F886F-F80A-4E80-A638-D92B09A72CBA}" Name="Grade 1 - 6.7mm surface aggregate" MaxAggSize="6.7" AggregateGrade="1"/>
+		<ROW Id="{FDF83CCB-0E71-4856-8169-2FCC2C5FF487}" ProductClassId="{6C9BAF69-8324-4E99-8AEB-F5E272B873C3}" Name="Fine Medium Grade Slurry Aggregate" MaxAggSize="6.7" AggregateGrade="1"/>
+		<ROW Id="{FFF9157D-B42B-42AF-9C24-25DF1AA1C807}" ProductClassId="15" Code="S8SMNN" Name="G8 Natural Sand" MaxAggSize="106" MaxAggRatio="0.6667" AggregateGrade="1"/>
+	</ROWDATA>
+</DATAPACKET>

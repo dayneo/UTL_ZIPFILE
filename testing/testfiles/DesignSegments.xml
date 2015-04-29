@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PavementDesignId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ContractId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="RoadId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="RoadCode" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="StartKm" fieldtype="r8"/>
+			<FIELD attrname="EndKm" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{6585BF74-F3FD-4092-8EDF-A55C9B444916}" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" RoadCode="MR00028" Name="Section 1" StartKm="0" EndKm="4"/>
+		<ROW Id="{39B08E6F-111A-44BE-8716-33ADD9CD1E77}" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" RoadCode="MR00028" Name="Section 2" StartKm="4" EndKm="14"/>
+		<ROW Id="{53FFC928-5769-4EFE-94EA-B9CC40EDB9F4}" PavementDesignId="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" RoadCode="MR00028" Name="Section 3" StartKm="14" EndKm="21"/>
+	</ROWDATA>
+</DATAPACKET>

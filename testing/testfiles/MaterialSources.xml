@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="15"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PropertyName" fieldtype="string" WIDTH="50"/>
+			<FIELD attrname="RoadNo" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="RoadKm" fieldtype="r8"/>
+			<FIELD attrname="RoadOffSetKm" fieldtype="r8"/>
+			<FIELD attrname="OwnerName" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="GPSPosX" fieldtype="r8"/>
+			<FIELD attrname="GPSPosY" fieldtype="r8"/>
+			<FIELD attrname="GPSPosZ" fieldtype="r8"/>
+			<FIELD attrname="DegX" fieldtype="r8"/>
+			<FIELD attrname="DegY" fieldtype="r8"/>
+			<FIELD attrname="TypeId" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{A0F54C2A-EE6F-42CF-8A3C-CDEDFE73D179}" Name="Borrow Pit 27" PropertyName="Westhoff Farm" RoadNo="DR05400" RoadKm="23" RoadOffSetKm="3" OwnerName="Mr A Brink" TypeId="{7CCA64E2-5F1D-4742-BB80-2184485B6BD9}"/>
+		<ROW Id="{448C4ACF-7B4C-4447-AA51-AB4589539661}" Name="Eerste River Quarry" PropertyName="N/A" RoadNo="MR108" RoadKm="15" RoadOffSetKm="4" OwnerName="La Farge Quarries" TypeId="{56A0FF69-EA00-4ED8-9A60-B8DBADB408EB}"/>
+		<ROW Id="{0EF8F624-B8F3-421A-A12E-8266B97A9692}" Code="" Name="Rheebok Quarry" PropertyName="" RoadNo="" RoadKm="0" RoadOffSetKm="0" OwnerName="" TypeId="{56A0FF69-EA00-4ED8-9A60-B8DBADB408EB}"/>
+		<ROW Id="{A040ADF7-CAFC-44E7-9D60-361DEFDD04CF}" Name="Borrow Pit 29" RoadKm="0" RoadOffSetKm="0" TypeId="{7CCA64E2-5F1D-4742-BB80-2184485B6BD9}"/>
+	</ROWDATA>
+</DATAPACKET>

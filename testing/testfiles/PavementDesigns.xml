@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="ContractId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="PQMSSeqNo" fieldtype="i4"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{83B3D661-5AD7-4DCF-B1A8-F35E5F41406A}" ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}" PQMSSeqNo="-1" Code="DR123"/>
+		<ROW ContractId="{AF527A1B-B7B5-4B1C-9EAD-92E04FE757F5}"/>
+	</ROWDATA>
+</DATAPACKET>

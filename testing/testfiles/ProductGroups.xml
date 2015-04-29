@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Name="Seal Aggregates"/>
+		<ROW Id="{4653D2C8-B0D8-4A89-93B0-9B88B57447F6}" Name="Roadbed &amp; Fill"/>
+		<ROW Id="{472D6823-441F-425E-A126-67A609EF5262}" Name="Cemented"/>
+		<ROW Id="1" Name="Asphalt"/>
+		<ROW Id="2" Name="Granular"/>
+	</ROWDATA>
+</DATAPACKET>

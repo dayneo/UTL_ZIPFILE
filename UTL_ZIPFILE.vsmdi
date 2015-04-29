@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tests>
+  <edtdocversion branch="retail" build="50727" revision="1433" />
+  <TestCategory type="Microsoft.VisualStudio.TestTools.Common.TestCategory">
+    <id type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+      <id type="System.Guid">8c43106b-9dc1-4907-a29f-aa66a61bf5b6</id>
+    </id>
+    <name type="System.String">Lists of Tests</name>
+    <description type="System.String" />
+    <enabled type="System.Boolean">True</enabled>
+    <parentCategoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+      <id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+    </parentCategoryId>
+    <runConfiguration type="Microsoft.VisualStudio.TestTools.Common.Link">
+      <id type="System.Guid">f39224f2-5cdb-4323-aa69-9716e1f5fe29</id>
+      <name type="System.String">Local Test Run</name>
+      <storage type="System.String">localtestrun.testrunconfig</storage>
+      <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration</type>
+      <enabled type="System.Boolean">True</enabled>
+    </runConfiguration>
+  </TestCategory>
+  <TestCategory type="Microsoft.VisualStudio.TestTools.Common.TestCategory">
+    <id type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+      <id type="System.Guid">92463a54-07de-4ad6-bba8-e91d5d281be3</id>
+    </id>
+    <name type="System.String">Functional Tests</name>
+    <description type="System.String" />
+    <enabled type="System.Boolean">True</enabled>
+    <parentCategoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+      <id type="System.Guid">8c43106b-9dc1-4907-a29f-aa66a61bf5b6</id>
+    </parentCategoryId>
+    <testLinks type="System.Collections.Hashtable">
+      <key type="System.Guid">6593b573-0c5a-a595-0604-22b326b8a191</key>
+      <value type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">6593b573-0c5a-a595-0604-22b326b8a191</id>
+        <name type="System.String">MultifileUnzip</name>
+        <storage type="System.String">testing\bin\testing.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </value>
+      <key type="System.Guid">bd6a5e3d-3580-dedc-4ccb-c1f7ff0f0a31</key>
+      <value type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">bd6a5e3d-3580-dedc-4ccb-c1f7ff0f0a31</id>
+        <name type="System.String">MultifileZip</name>
+        <storage type="System.String">testing\bin\testing.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </value>
+      <key type="System.Guid">7903ae0a-61d8-756c-be77-4e271bbec8f9</key>
+      <value type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">7903ae0a-61d8-756c-be77-4e271bbec8f9</id>
+        <name type="System.String">FilesList</name>
+        <storage type="System.String">testing\bin\testing.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </value>
+      <key type="System.Guid">685411e2-7850-a8ab-edf0-cea11503c8aa</key>
+      <value type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">685411e2-7850-a8ab-edf0-cea11503c8aa</id>
+        <name type="System.String">SinglefileUnzip_Nonexistant</name>
+        <storage type="System.String">testing\bin\testing.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </value>
+      <key type="System.Guid">8a66a6f7-21d9-7f4d-69b0-39cb4b2e5b5a</key>
+      <value type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">8a66a6f7-21d9-7f4d-69b0-39cb4b2e5b5a</id>
+        <name type="System.String">SinglefileUnzip</name>
+        <storage type="System.String">testing\bin\testing.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </value>
+    </testLinks>
+  </TestCategory>
+</Tests>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Number" fieldtype="i4"/>
+			<FIELD attrname="S26p5" fieldtype="r8"/>
+			<FIELD attrname="S19p0" fieldtype="r8"/>
+			<FIELD attrname="S13p2" fieldtype="r8"/>
+			<FIELD attrname="S9p5" fieldtype="r8"/>
+			<FIELD attrname="S6p7" fieldtype="r8"/>
+			<FIELD attrname="S4p75" fieldtype="r8"/>
+			<FIELD attrname="S2p36" fieldtype="r8"/>
+			<FIELD attrname="S0p425" fieldtype="r8"/>
+			<FIELD attrname="S0p075" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA></ROWDATA>
+</DATAPACKET>

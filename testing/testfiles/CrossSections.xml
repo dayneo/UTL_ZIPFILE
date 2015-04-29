@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="DscId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="DscLevel" fieldtype="r8"/>
+			<FIELD attrname="DscOffset" fieldtype="r8"/>
+			<FIELD attrname="DscStakeValue" fieldtype="r8"/>
+			<FIELD attrname="LeadOffset" fieldtype="r8"/>
+			<FIELD attrname="LeadLevel" fieldtype="r8"/>
+			<FIELD attrname="LeadOffsetDiff" fieldtype="r8"/>
+			<FIELD attrname="LeadLevelDiff" fieldtype="r8"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA></ROWDATA>
+</DATAPACKET>

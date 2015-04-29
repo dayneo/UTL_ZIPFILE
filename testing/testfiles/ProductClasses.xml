@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Id" fieldtype="string" WIDTH="40">
+				<PARAM Name="PROVFLAGS" Value="7" Type="i4" Roundtrip="True"/>
+			</FIELD>
+			<FIELD attrname="GroupId" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="Code" fieldtype="string" WIDTH="10"/>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="40"/>
+			<FIELD attrname="FormCode" fieldtype="string" WIDTH="15"/>
+			<FIELD attrname="FormPrintCode" fieldtype="string" WIDTH="15"/>
+			<FIELD attrname="CVTable" fieldtype="string" WIDTH="3"/>
+			<FIELD attrname="SpecDisplayGrid" fieldtype="i2"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Id="{0BC92068-5E98-49D6-88FE-9FA2B1E7C7BE}" GroupId="2" Code="G6" Name="G6" FormCode="E-ASS-ACG6" FormPrintCode="E-ASS-ACG6-E" CVTable="C9" SpecDisplayGrid="3"/>
+		<ROW Id="{0CC6D5A3-050F-4FD2-88FF-FD8EDD2A0603}" GroupId="{472D6823-441F-425E-A126-67A609EF5262}" Code="C4" Name="C4" FormCode="E-ASS-ACC1" FormPrintCode="E-ASS-ACC1-E" CVTable="C8" SpecDisplayGrid="2"/>
+		<ROW Id="{126ECDB0-20C5-47E5-B38C-F3410DB0E803}" GroupId="{4653D2C8-B0D8-4A89-93B0-9B88B57447F6}" Code="DR" Name="Rockfill" FormCode="E-ASS-ACG-" FormPrintCode="E-ASS-ACG-" CVTable="C9" SpecDisplayGrid="3"/>
+		<ROW Id="{156AA214-655D-400A-A5E5-058D52062375}" Code="QEW" Name="EWQEW" FormCode="E-ASS-ACA1" CVTable="C9"/>
+		<ROW Id="{20C74208-BA96-48DE-8441-CAC41B93787B}" GroupId="{472D6823-441F-425E-A126-67A609EF5262}" Code="C3" Name="C3" FormCode="E-ASS-ACC1" FormPrintCode="E-ASS-ACC1-E" CVTable="C8" SpecDisplayGrid="2"/>
+		<ROW Id="{54DC5D75-058C-46BA-9139-21BE4C61A9CE}" GroupId="1" Code="BC" Name="Continuously Graded Base" FormCode="E-ASS-ACA1" FormPrintCode="E-ASS-ACB1-E" CVTable="C10" SpecDisplayGrid="1"/>
+		<ROW Id="{5BDBEB7C-DF1C-4327-AF04-465054414AE1}" GroupId="2" Code="GWC urban" Name="Gravel Wearing Course on Urban Road" FormCode="E-DAT-GWC" FormPrintCode="E-DAT-GWC-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="{60956A21-F4F9-4BEC-B7C9-713B4C80414E}" Code="WQEQ" Name="EQWEQ" FormCode="E-ASS-ACA1" CVTable="C9"/>
+		<ROW Id="{61690DE5-A40F-4C15-86D2-DB0B93814A54}" Code="REW" Name="ERWEW" FormCode="E-ASS-ACA1" CVTable="C9"/>
+		<ROW Id="{6693D874-5D58-4E53-AD7D-8E44F18B6487}" GroupId="{472D6823-441F-425E-A126-67A609EF5262}" Code="C3/C4" Name="C3/C4 WCPA Combined" FormCode="E-ASS-ACC1" FormPrintCode="E-ASS-ACC1-E" CVTable="C8" SpecDisplayGrid="2"/>
+		<ROW Id="{6C9BAF69-8324-4E99-8AEB-F5E272B873C3}" GroupId="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Code="Slurry" Name="Slurry Seal" FormCode="E-ASS-SUR" FormPrintCode="E-ASS-SUR-" CVTable="C11" SpecDisplayGrid="1"/>
+		<ROW Id="{708F886F-F80A-4E80-A638-D92B09A72CBA}" GroupId="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Code="Chip" Name="Chip Seal" FormCode="E-ASS-SUR" FormPrintCode="E-ASS-SUR-" CVTable="C11" SpecDisplayGrid="1"/>
+		<ROW Id="{8BEF5F73-AF2D-407A-BD8A-4D98C69CA328}" GroupId="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Code="Otta" Name="Otta Seal" FormCode="E-ASS-SUR" FormPrintCode="E-ASS-SUR-" CVTable="C11" SpecDisplayGrid="1"/>
+		<ROW Id="{99ED5954-5B25-4AB3-B223-6F9EB2DEE146}" GroupId="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Code="Grit" Name="Grit Seal" FormCode="E-ASS-SUR" FormPrintCode="E-ASS-SUR-" CVTable="C11" SpecDisplayGrid="1"/>
+		<ROW Id="{C0AB6275-9C00-4FE5-A110-D5A03CA7F966}" GroupId="2" Code="GWC rural" Name="Gravel Wearing Coarse on Rural Road" FormCode="E-ASS-GWC" FormPrintCode="E-ASS-GWC-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="{C8A0B9D9-407E-4107-96DA-6A4E96939FBE}" GroupId="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Code="Sand" Name="Sand Seal" FormCode="E-ASS-SUR" FormPrintCode="E-ASS-SUR-" CVTable="C11" SpecDisplayGrid="1"/>
+		<ROW Id="{E4A312E5-2E00-4666-BEDB-1B00018FE0E3}" GroupId="{0AA7A94C-81A2-46F5-96FD-B797910155E5}" Code="Cape" Name="Cape Seal" FormCode="E-ASS-SUR" FormPrintCode="E-ASS-SUR-E" CVTable="C11" SpecDisplayGrid="1"/>
+		<ROW Id="{EFA4AA95-7A3E-45B6-9543-98EA3C64F4A7}" GroupId="2" Code="G1" Name="G1" FormCode="E-ASS-ACG1" FormPrintCode="E-ASS-ACG1-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="{F74B0951-C4F6-4CC6-87CD-0550A1C8306E}" GroupId="{4653D2C8-B0D8-4A89-93B0-9B88B57447F6}" Code="G10" Name="G10" FormCode="E-ASS-ACG-" FormPrintCode="E-ASS-ACG-" CVTable="C9" SpecDisplayGrid="3"/>
+		<ROW Id="{FA6F7A23-9C2C-4432-A6AC-DCA39D125083}" Code="Q" Name="WQ" FormCode="E-ASS-ACA1" CVTable="C10"/>
+		<ROW Id="1" GroupId="1" Code="AC" Name="Continuously Graded Wearing Course" FormCode="E-ASS-ACA1" FormPrintCode="E-ASS-ACA1-E" CVTable="C10" SpecDisplayGrid="1"/>
+		<ROW Id="10" GroupId="2" Code="G2" Name="G2" FormCode="E-ASS-ACG2" FormPrintCode="E-ASS-ACG2-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="11" GroupId="2" Code="G3" Name="G3" FormCode="E-ASS-ACG3" FormPrintCode="E-ASS-ACG3-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="12" GroupId="2" Code="G4" Name="G4" FormCode="E-ASS-ACG4" FormPrintCode="E-ASS-ACG4-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="13" GroupId="2" Code="G5" Name="G5" FormCode="E-ASS-ACG5" FormPrintCode="E-ASS-ACG5-E" CVTable="C9" SpecDisplayGrid="2"/>
+		<ROW Id="14" GroupId="2" Code="G7" Name="G7" FormCode="E-ASS-ACG7" FormPrintCode="E-ASS-ACG7-E" CVTable="C9" SpecDisplayGrid="3"/>
+		<ROW Id="15" GroupId="2" Code="G8" Name="G8" FormCode="E-ASS-ACG8" FormPrintCode="E-ASS-ACG8-E" CVTable="C9" SpecDisplayGrid="3"/>
+		<ROW Id="16" GroupId="2" Code="G9" Name="G9" FormCode="E-ASS-ACG8" FormPrintCode="E-ASS-ACG9-E" CVTable="C9" SpecDisplayGrid="3"/>
+		<ROW Id="3" GroupId="1" Code="AO" Name="Porous (Open) Graded Wearing Course" FormCode="E-ASS-ACA1" FormPrintCode="E-ASS-ACA3-E" CVTable="C10" SpecDisplayGrid="1"/>
+		<ROW Id="5" GroupId="1" Code="AS" Name="Semi Gap Graded Wearing Course" FormCode="E-ASS-ACA1" FormPrintCode="E-ASS-ACA2-E" CVTable="C10" SpecDisplayGrid="1"/>
+		<ROW Id="6" GroupId="1" Code="UTFC" Name="Ultra Thin Friction Course" FormCode="E-ASS-ACA1" FormPrintCode="E-ASS-ACA4-E" CVTable="C10" SpecDisplayGrid="1"/>
+	</ROWDATA>
+</DATAPACKET>
